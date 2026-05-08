@@ -1,0 +1,83 @@
+- name: Conductor
+  url: https://www.conductor.build/
+  details: Supports Claude Code and Codex
+  price: Free
+  github_stars: 0
+  opensource: false
+
+- name: Superset
+  url: https://superset.sh/
+  details:
+  price: Free
+  github_repo: superset-sh/superset
+  github_stars: 10501
+  opensource: true
+
+- name: Zed
+  url: https://zed.dev/
+  details:
+  price: Freemium
+  github_repo: zed-industries/zed
+  github_stars: 82250
+  opensource: true
+
+- name: VS Code Agents
+  url: https://code.visualstudio.com/docs/copilot/agents-app
+  details: Currently only available via VS Code Insiders
+  price: Free
+  github_stars: 0
+  opensource: false
+
+- name: cmux
+  url: https://cmux.com/
+  details:
+  price: Free
+  github_repo: manaflow-ai/cmux
+  github_stars: 16492
+  opensource: true
+
+- name: OpenChamber
+  url: https://openchamber.dev/
+  details: Runs on OpenCode SDK
+  price: Free
+  github_repo: openchamber/openchamber
+  github_stars: 3961
+  opensource: true
+
+- name: Paseo
+  url: https://paseo.sh/
+  details:
+  price: Free
+  github_repo: getpaseo/paseo
+  github_stars: 5734
+  opensource: true
+
+- name: Shep
+  url: https://www.shep.tools/
+  details:
+  price: Free
+  github_repo: stumptowndoug/shep
+  github_stars: 60
+  opensource: true
+
+- name: CodeNomad
+  url: https://github.com/NeuralNomadsAI/CodeNomad
+  details:
+  price: Free
+  github_repo: NeuralNomadsAI/CodeNomad
+  github_stars: 1465
+  opensource: true
+
+- name: Cursor
+  url: https://cursor.com/
+  details:
+  price: Freemium
+  github_stars: 0
+  opensource: false
+
+- name: Devin
+  url: https://devin.ai/
+  details:
+  price: Freemium
+  github_stars: 0
+  opensource: false

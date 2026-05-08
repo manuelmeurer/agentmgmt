@@ -1,0 +1,40 @@
+name: Update GitHub stars
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+
+      - run: node scripts/update-stars.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request if changed
+        id: create-pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          add-paths: dist/tools.yml
+          branch: update-github-stars
+          commit-message: "chore: refresh GitHub star counts"
+          title: "Refresh GitHub star counts"
+          body: "Automated daily update of `github_stars` in `dist/tools.yaml`."
+
+      - name: Merge pull request
+        if: steps.create-pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ steps.create-pr.outputs.pull-request-url }}
+        run: gh pr merge --squash "$PR_URL"
