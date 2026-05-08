@@ -81,3 +81,19 @@
   price: Freemium
   github_stars: 0
   opensource: false
+
+- name: T3 Code
+  url: https://t3.codes/
+  details:
+  price: Free
+  github_repo: pingdotgg/t3code
+  github_stars: 11070
+  opensource: true
+
+- name: Acepe
+  url: https://acepe.dev/
+  details:
+  price: Freemium
+  github_repo: flazouh/acepe
+  github_stars: 75
+  opensource: true
