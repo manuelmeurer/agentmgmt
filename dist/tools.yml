@@ -10,7 +10,7 @@
   details:
   price: Free
   github_repo: superset-sh/superset
-  github_stars: 10503
+  github_stars: "11k"
   opensource: true
 
 - name: Zed
@@ -18,7 +18,7 @@
   details:
   price: Freemium
   github_repo: zed-industries/zed
-  github_stars: 82251
+  github_stars: "82k"
   opensource: true
 
 - name: VS Code Agents
@@ -33,7 +33,7 @@
   details:
   price: Free
   github_repo: manaflow-ai/cmux
-  github_stars: 16496
+  github_stars: "16k"
   opensource: true
 
 - name: OpenChamber
@@ -41,7 +41,7 @@
   details: Runs on OpenCode SDK
   price: Free
   github_repo: openchamber/openchamber
-  github_stars: 3966
+  github_stars: "4k"
   opensource: true
 
 - name: Paseo
@@ -49,7 +49,7 @@
   details:
   price: Free
   github_repo: getpaseo/paseo
-  github_stars: 5735
+  github_stars: "5.7k"
   opensource: true
 
 - name: Shep
@@ -57,7 +57,7 @@
   details:
   price: Free
   github_repo: stumptowndoug/shep
-  github_stars: 60
+  github_stars: "< 1k"
   opensource: true
 
 - name: CodeNomad
@@ -65,7 +65,7 @@
   details:
   price: Free
   github_repo: NeuralNomadsAI/CodeNomad
-  github_stars: 1467
+  github_stars: "1.5k"
   opensource: true
 
 - name: Cursor
@@ -87,7 +87,7 @@
   details:
   price: Free
   github_repo: pingdotgg/t3code
-  github_stars: 11070
+  github_stars: "11k"
   opensource: true
 
 - name: Acepe
@@ -95,5 +95,5 @@
   details:
   price: Freemium
   github_repo: flazouh/acepe
-  github_stars: 75
+  github_stars: "< 1k"
   opensource: true

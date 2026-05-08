@@ -32,15 +32,22 @@ for (let i = 0; i < blocks.length; i++) {
     continue;
   }
 
+  const formatted = formatStars(stargazers_count);
   const next = block.replace(
-    /^(\s*github_stars:\s*)\d+\s*$/m,
-    `$1${stargazers_count}`,
+    /^(\s*github_stars:\s*).*$/m,
+    `$1"${formatted}"`,
   );
   if (next !== block) {
     blocks[i] = next;
     updated++;
-    console.log(`${repo}: ${stargazers_count}`);
+    console.log(`${repo}: ${stargazers_count} -> ${formatted}`);
   }
+}
+
+function formatStars(n) {
+  if (n < 1000) return "< 1k";
+  if (n < 10000) return `${Math.round(n / 100) / 10}k`;
+  return `${Math.round(n / 1000)}k`;
 }
 
 const out = blocks.join("\n");
