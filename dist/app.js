@@ -16,7 +16,7 @@
     return;
   }
 
-  const formatStars = (n) => (n < 1000 ? "< 1k" : `${n / 1000}k`);
+  const formatStars = (n) => (n < 1000 ? `~${n}` : `${n / 1000}k`);
 
   const repoFirst = (a, b) =>
     !!b.github_repo - !!a.github_repo;

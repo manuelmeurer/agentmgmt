@@ -45,8 +45,8 @@ for (let i = 0; i < blocks.length; i++) {
 }
 
 function roundStars(n) {
-  if (n < 10000) return Math.round(n / 100) * 100;
-  return Math.round(n / 1000) * 1000;
+  const step = n < 10000 ? 100 : 1000;
+  return Math.round(n / step) * step;
 }
 
 const out = blocks.join("\n");
