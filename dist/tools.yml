@@ -60,6 +60,14 @@
   github_stars: 100
   opensource: true
 
+- name: Nimbalyst
+  url: https://nimbalyst.com/
+  details:
+  price: Free
+  github_repo: nimbalyst/nimbalyst
+  github_stars: 400
+  opensource: true
+
 - name: CodeNomad
   url: https://github.com/NeuralNomadsAI/CodeNomad
   details: No custom website yet
