@@ -1,6 +1,6 @@
 - name: Conductor
   url: https://www.conductor.build/
-  details: Supports Claude Code and Codex
+  details: Supports only Claude Code and Codex so far
   price: Free
   github_stars: 0
   opensource: false
@@ -15,7 +15,7 @@
 
 - name: Zed
   url: https://zed.dev/
-  details:
+  details: Primarily an editor
   price: Freemium
   github_repo: zed-industries/zed
   github_stars: 82000
@@ -30,7 +30,7 @@
 
 - name: cmux
   url: https://cmux.com/
-  details:
+  details: Primarily a terminal
   price: Free
   github_repo: manaflow-ai/cmux
   github_stars: 17000
@@ -62,7 +62,7 @@
 
 - name: CodeNomad
   url: https://github.com/NeuralNomadsAI/CodeNomad
-  details:
+  details: No custom website yet
   price: Free
   github_repo: NeuralNomadsAI/CodeNomad
   github_stars: 1500
@@ -70,7 +70,7 @@
 
 - name: Cursor
   url: https://cursor.com/
-  details:
+  details: Very limited free plan
   price: Freemium
   github_stars: 0
   opensource: false
