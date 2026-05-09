@@ -33,7 +33,7 @@
   details:
   price: Free
   github_repo: manaflow-ai/cmux
-  github_stars: "16k"
+  github_stars: "17k"
   opensource: true
 
 - name: OpenChamber
@@ -49,7 +49,7 @@
   details:
   price: Free
   github_repo: getpaseo/paseo
-  github_stars: "5.7k"
+  github_stars: "5.8k"
   opensource: true
 
 - name: Shep
