@@ -16,20 +16,23 @@
     return;
   }
 
-  const parseStars = (v) => {
-    if (typeof v === "number") return v;
-    if (!v) return 0;
-    const s = String(v);
-    if (s.startsWith("<")) return 0;
-    const m = s.match(/^([\d.]+)k/);
-    if (m) return parseFloat(m[1]) * 1000;
-    return parseInt(s, 10) || 0;
-  };
+  const formatStars = (n) => (n < 1000 ? "< 1k" : `${n / 1000}k`);
+
+  const repoFirst = (a, b) =>
+    !!b.github_repo - !!a.github_repo;
+
+  const byName = (a, b) => a.name.localeCompare(b.name);
 
   const comparators = {
-    "stars-desc": (a, b) => parseStars(b.github_stars) - parseStars(a.github_stars),
-    "stars-asc": (a, b) => parseStars(a.github_stars) - parseStars(b.github_stars),
-    "name-asc": (a, b) => a.name.localeCompare(b.name),
+    "stars-desc": (a, b) =>
+      repoFirst(a, b) ||
+      (b.github_stars || 0) - (a.github_stars || 0) ||
+      byName(a, b),
+    "stars-asc": (a, b) =>
+      repoFirst(a, b) ||
+      (a.github_stars || 0) - (b.github_stars || 0) ||
+      byName(a, b),
+    "name-asc": byName,
     "name-desc": (a, b) => b.name.localeCompare(a.name),
   };
 
@@ -49,12 +52,11 @@
                   <path d="M11 3a1 1 0 1 0 0 2h2.586l-6.293 6.293a1 1 0 1 0 1.414 1.414L15 6.414V9a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-5z"/>
                   <path d="M5 5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-3a1 1 0 1 0-2 0v3H5V7h3a1 1 0 0 0 0-2H5z"/>
                 </svg>`;
-        const starsNumber =
-          tool.github_stars && tool.github_stars !== 0
-            ? `<span class="font-mono tabular-nums text-neutral-200">${escapeHtml(
-                String(tool.github_stars),
-              )}</span>`
-            : `<span class="text-neutral-600">—</span>`;
+        const starsNumber = tool.github_repo
+          ? `<span class="font-mono tabular-nums text-neutral-200">${formatStars(
+              tool.github_stars || 0,
+            )}</span>`
+          : `<span class="text-neutral-600">—</span>`;
         const stars = tool.github_repo
           ? `<a href="https://github.com/${escapeAttr(tool.github_repo)}"
                 target="_blank" rel="noopener noreferrer"
