@@ -38,7 +38,7 @@
 
   const render = () => {
     const sortKey = sortSelect.value;
-    const sorted = [...tools].sort(comparators[sortKey] || comparators["stars-desc"]);
+    const sorted = [...tools].sort(comparators[sortKey] || comparators["name-asc"]);
     tbody.innerHTML = sorted
       .map((tool) => {
         const host = (() => {

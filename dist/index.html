@@ -53,6 +53,10 @@
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
   </head>
   <body class="min-h-screen text-neutral-200 antialiased">
     <main class="mx-auto max-w-7xl px-6 py-16 sm:py-24">
@@ -83,10 +87,10 @@
                 id="sort"
                 class="appearance-none rounded-md border border-neutral-800 bg-neutral-900 py-2 pl-3 pr-9 text-sm text-neutral-200 transition hover:border-neutral-700 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
               >
+                <option value="name-asc" selected>Name (A → Z)</option>
+                <option value="name-desc">Name (Z → A)</option>
                 <option value="stars-desc">GitHub stars (high → low)</option>
                 <option value="stars-asc">GitHub stars (low → high)</option>
-                <option value="name-asc">Name (A → Z)</option>
-                <option value="name-desc">Name (Z → A)</option>
               </select>
               <svg
                 class="pointer-events-none absolute right-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500"
