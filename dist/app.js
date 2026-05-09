@@ -10,7 +10,7 @@
     const text = await res.text();
     tools = jsyaml.load(text) || [];
   } catch (err) {
-    tbody.innerHTML = `<tr><td colspan="6" class="px-6 py-12 text-center text-red-400">Failed to load data: ${escapeHtml(
+    tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-red-400">Failed to load data: ${escapeHtml(
       err.message,
     )}</td></tr>`;
     return;
@@ -66,10 +66,15 @@
             </a>`
           : starsNumber;
         const badge = tool.opensource
-          ? `<span class="inline-flex items-center rounded-full border border-emerald-500/20 bg-emerald-500/10 px-2.5 py-0.5 text-xs font-medium text-emerald-300">Open source</span>`
-          : `<span class="inline-flex items-center rounded-full border border-neutral-700 bg-neutral-800/50 px-2.5 py-0.5 text-xs font-medium text-neutral-400">Proprietary</span>`;
+          ? `<span class="inline-flex items-center whitespace-nowrap rounded-full border border-emerald-500/20 bg-emerald-500/10 px-2.5 py-0.5 text-xs font-medium text-emerald-300">Open source</span>`
+          : `<span class="inline-flex items-center whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-800/50 px-2.5 py-0.5 text-xs font-medium text-neutral-400">Proprietary</span>`;
         const faviconHtml =
-          host === "github.com"
+          tool.icon_url
+            ? `<img src="${escapeAttr(tool.icon_url)}" alt=""
+                     loading="lazy" width="20" height="20"
+                     class="h-5 w-5 flex-shrink-0 rounded bg-neutral-800/50 object-cover"
+                     onerror="this.style.visibility='hidden'">`
+            : host === "github.com"
             ? `<div class="h-5 w-5 flex-shrink-0" aria-hidden="true"></div>`
             : `<img src="${escapeAttr(
                 `https://icons.duckduckgo.com/ip3/${encodeURIComponent(host)}.ico`,
@@ -77,6 +82,22 @@
                      loading="lazy" width="20" height="20"
                      class="h-5 w-5 flex-shrink-0 rounded bg-neutral-800/50"
                      onerror="this.style.visibility='hidden'">`;
+        const linkFavicons = Array.isArray(tool.links) && tool.links.length
+          ? `<div class="flex items-center gap-2">${[...tool.links]
+              .sort(compareLinks)
+              .map((link) => {
+                const linkHost = getHost(link);
+                return `<a href="${escapeAttr(link)}" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex h-7 w-7 items-center justify-center rounded border border-neutral-800 bg-neutral-900/60 transition hover:border-neutral-700 hover:bg-neutral-800"
+                    title="${escapeAttr(linkHost)}" aria-label="${escapeAttr(linkHost)}">
+                  <img src="${escapeAttr(getFaviconUrl(linkHost))}" alt=""
+                       loading="lazy" width="16" height="16"
+                       class="h-4 w-4 rounded-sm"
+                       onerror="this.parentElement.style.display='none'">
+                </a>`;
+              })
+              .join("")}</div>`
+          : `<span class="text-neutral-600">—</span>`;
         return `
           <tr class="transition hover:bg-neutral-900/40">
             <td class="px-6 py-4 font-medium text-neutral-100">
@@ -95,6 +116,7 @@
                 </svg>
               </a>
             </td>
+            <td class="px-6 py-4">${linkFavicons}</td>
             <td class="px-6 py-4 max-w-md text-neutral-400">${
               tool.details ? escapeHtml(tool.details) : `<span class="text-neutral-600">—</span>`
             }</td>
@@ -145,5 +167,18 @@
   }
   function escapeAttr(s) {
     return escapeHtml(s);
+  }
+  function getHost(url) {
+    try {
+      return new URL(url).host.replace(/^www\./, "");
+    } catch {
+      return url;
+    }
+  }
+  function getFaviconUrl(host) {
+    return `https://icons.duckduckgo.com/ip3/${encodeURIComponent(host)}.ico`;
+  }
+  function compareLinks(a, b) {
+    return getHost(a).localeCompare(getHost(b)) || a.localeCompare(b);
   }
 })();

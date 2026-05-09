@@ -1,5 +1,9 @@
 - name: Conductor
   url: https://www.conductor.build/
+  links:
+    - https://x.com/conductor_build
+    - https://www.youtube.com/@conductor_build
+    - https://www.reddit.com/r/conductorbuild/
   details: Supports only Claude Code and Codex so far
   price: Free
   github_stars: 0
@@ -7,6 +11,10 @@
 
 - name: Superset
   url: https://superset.sh/
+  links:
+    - https://www.youtube.com/@superset-sh
+    - https://x.com/superset_sh
+    - https://discord.gg/cZeD9WYcV7
   details:
   price: Free
   github_repo: superset-sh/superset
@@ -15,6 +23,12 @@
 
 - name: Zed
   url: https://zed.dev/
+  links:
+    - https://x.com/zeddotdev
+    - https://bsky.app/profile/zed.dev
+    - https://www.youtube.com/@zeddotdev
+    - https://discord.com/invite/zedindustries
+    - https://www.reddit.com/r/ZedEditor/
   details: Primarily an editor
   price: Freemium
   github_repo: zed-industries/zed
@@ -23,6 +37,12 @@
 
 - name: VS Code Agents
   url: https://code.visualstudio.com/docs/copilot/agents-app
+  links:
+    - https://x.com/code
+    - https://bsky.app/profile/vscode.dev
+    - https://www.reddit.com/r/vscode/
+    - https://www.tiktok.com/@vscode
+    - https://www.youtube.com/@code
   details: Currently only available via VS Code Insiders
   price: Free
   github_stars: 0
@@ -30,6 +50,9 @@
 
 - name: cmux
   url: https://cmux.com/
+  links:
+    - https://x.com/manaflowai
+    - https://discord.gg/xsgFEVrWCZ
   details: Primarily a terminal
   price: Free
   github_repo: manaflow-ai/cmux
@@ -38,14 +61,27 @@
 
 - name: OpenChamber
   url: https://openchamber.dev/
+  links:
+    - https://discord.gg/ZYRSdnwwKA
   details: Runs on OpenCode SDK
   price: Free
   github_repo: openchamber/openchamber
   github_stars: 4000
   opensource: true
 
+- name: Opcode
+  url: https://opcode.sh/
+  links:
+    - https://x.com/getAsterisk
+  details:
+  price: Free
+  github_stars: 0
+  opensource: true
+
 - name: Paseo
   url: https://paseo.sh/
+  links:
+    - https://discord.gg/jz8T2uahpH
   details:
   price: Free
   github_repo: getpaseo/paseo
@@ -54,6 +90,8 @@
 
 - name: Shep
   url: https://www.shep.tools/
+  links:
+    - https://discord.gg/mEwuyz6xbj
   details:
   price: Free
   github_repo: stumptowndoug/shep
@@ -62,6 +100,11 @@
 
 - name: Nimbalyst
   url: https://nimbalyst.com/
+  links:
+    - https://www.youtube.com/@nimbalyst
+    - https://x.com/nimbalyst
+    - https://www.tiktok.com/@nimbalyst
+    - https://www.instagram.com/nimbalyst
   details:
   price: Free
   github_repo: nimbalyst/nimbalyst
@@ -70,6 +113,7 @@
 
 - name: CodeNomad
   url: https://github.com/NeuralNomadsAI/CodeNomad
+  icon_url: https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/dev/images/CodeNomad-Icon.png
   details: No custom website yet
   price: Free
   github_repo: NeuralNomadsAI/CodeNomad
@@ -78,6 +122,9 @@
 
 - name: Cursor
   url: https://cursor.com/
+  links:
+    - https://x.com/cursor_ai
+    - https://www.youtube.com/@cursor_ai
   details: Very limited free plan
   price: Freemium
   github_stars: 0
@@ -85,6 +132,8 @@
 
 - name: Devin
   url: https://devin.ai/
+  links:
+    - https://x.com/cognition
   details:
   price: Freemium
   github_stars: 0
@@ -92,6 +141,8 @@
 
 - name: T3 Code
   url: https://t3.codes/
+  links:
+    - https://discord.gg/jn4EGJjrvv
   details:
   price: Free
   github_repo: pingdotgg/t3code
@@ -100,6 +151,9 @@
 
 - name: Acepe
   url: https://acepe.dev/
+  links:
+    - https://discord.gg/acepe
+    - https://x.com/acepedotdev
   details:
   price: Freemium
   github_repo: flazouh/acepe
