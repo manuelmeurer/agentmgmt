@@ -32,7 +32,7 @@
   details: Primarily an editor
   price: Freemium
   github_repo: zed-industries/zed
-  github_stars: 82000
+  github_stars: 83000
   opensource: true
 
 - name: VS Code Agents
@@ -66,7 +66,7 @@
   details: Runs on OpenCode SDK
   price: Free
   github_repo: openchamber/openchamber
-  github_stars: 4100
+  github_stars: 4200
   opensource: true
 
 - name: Opcode
@@ -85,7 +85,7 @@
   details:
   price: Free
   github_repo: getpaseo/paseo
-  github_stars: 5900
+  github_stars: 6000
   opensource: true
 
 - name: Shep
