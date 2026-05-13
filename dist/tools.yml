@@ -43,7 +43,6 @@
     - https://www.reddit.com/r/vscode/
     - https://www.tiktok.com/@vscode
     - https://www.youtube.com/@code
-  details: Currently only available via VS Code Insiders
   price: Free
   github_stars: 0
   opensource: false
@@ -67,6 +66,58 @@
   price: Free
   github_repo: openchamber/openchamber
   github_stars: 4200
+  opensource: true
+
+- name: jean
+  url: https://jean.build/
+  links:
+    - https://github.com/coollabsio/jean
+  details:
+  price: Free
+  github_repo: coollabsio/jean
+  github_stars: 900
+  opensource: true
+
+- name: nyx
+  url: https://getnyx.dev/
+  details:
+  price: Paid
+  github_stars: 0
+  opensource: false
+
+- name: maestri
+  url: https://www.themaestri.app/
+  details:
+  price: Freemium
+  github_stars: 0
+  opensource: false
+
+- name: fusion
+  url: https://runfusion.ai/
+  links:
+    - https://github.com/Runfusion/Fusion
+  details:
+  price: Free
+  github_repo: Runfusion/Fusion
+  github_stars: 500
+  opensource: true
+
+- name: kandev
+  url: https://github.com/kdlbs/kandev
+  details:
+  price: Free
+  github_repo: kdlbs/kandev
+  github_stars: 200
+  opensource: true
+
+- name: Agent of Empires
+  url: https://www.agent-of-empires.com/
+  links:
+    - https://github.com/njbrake/agent-of-empires
+  details:
+  price: Free
+  github_repo: njbrake/agent-of-empires
+  github_stars: 2200
   opensource: true
 
 - name: Opcode
