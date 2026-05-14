@@ -150,6 +150,16 @@
   github_stars: 100
   opensource: true
 
+- name: Herdr
+  url: https://herdr.dev/
+  links:
+    - https://github.com/ogulcancelik/herdr
+  details: Terminal agent multiplexer
+  price: Free
+  github_repo: ogulcancelik/herdr
+  github_stars: 800
+  opensource: true
+
 - name: Nimbalyst
   url: https://nimbalyst.com/
   links:
