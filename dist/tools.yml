@@ -35,8 +35,8 @@
   github_stars: 83000
   opensource: true
 
-- name: VS Code Agents
-  url: https://code.visualstudio.com/docs/copilot/agents-app
+- name: VS Code Agents Window
+  url: https://code.visualstudio.com/docs/copilot/agents/agents-window
   links:
     - https://x.com/code
     - https://bsky.app/profile/vscode.dev
@@ -104,6 +104,7 @@
 
 - name: kandev
   url: https://github.com/kdlbs/kandev
+  icon_url: https://avatars.githubusercontent.com/u/254029050?v=4
   details:
   price: Free
   github_repo: kdlbs/kandev
