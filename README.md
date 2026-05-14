@@ -11,9 +11,10 @@ Edit [`dist/tools.yml`](dist/tools.yml) and open a PR. Each entry looks like:
 ```yaml
 - name: Tool Name
   url: https://example.com/
+  links:
+    - https://github.com/owner/name # optional, enables auto star updates
   details: One-line description (optional).
   price: Free | Freemium | Paid (optional)
-  github_repo: owner/name      # optional, enables auto star updates
   github_stars: 0              # populated by the daily workflow
   opensource: true             # or false
 ```
@@ -44,7 +45,7 @@ Configuration: [`wrangler.jsonc`](wrangler.jsonc).
 
 ## Daily star refresh
 
-[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's `github_repo`, and opens an auto-merging PR via [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request). The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
+[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's GitHub URL in `links`, and opens an auto-merging PR via [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request). The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
 
 ## License & intent
 

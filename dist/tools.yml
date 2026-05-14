@@ -15,9 +15,9 @@
     - https://www.youtube.com/@superset-sh
     - https://x.com/superset_sh
     - https://discord.gg/cZeD9WYcV7
+    - https://github.com/superset-sh/superset
   details:
   price: Free
-  github_repo: superset-sh/superset
   github_stars: 11000
   opensource: true
 
@@ -29,9 +29,9 @@
     - https://www.youtube.com/@zeddotdev
     - https://discord.com/invite/zedindustries
     - https://www.reddit.com/r/ZedEditor/
+    - https://github.com/zed-industries/zed
   details: Primarily an editor
   price: Freemium
-  github_repo: zed-industries/zed
   github_stars: 83000
   opensource: true
 
@@ -52,9 +52,9 @@
   links:
     - https://x.com/manaflowai
     - https://discord.gg/xsgFEVrWCZ
+    - https://github.com/manaflow-ai/cmux
   details: Primarily a terminal
   price: Free
-  github_repo: manaflow-ai/cmux
   github_stars: 17000
   opensource: true
 
@@ -62,9 +62,9 @@
   url: https://openchamber.dev/
   links:
     - https://discord.gg/ZYRSdnwwKA
+    - https://github.com/openchamber/openchamber
   details: Runs on OpenCode SDK
   price: Free
-  github_repo: openchamber/openchamber
   github_stars: 4200
   opensource: true
 
@@ -74,7 +74,6 @@
     - https://github.com/coollabsio/jean
   details:
   price: Free
-  github_repo: coollabsio/jean
   github_stars: 900
   opensource: true
 
@@ -98,16 +97,16 @@
     - https://github.com/Runfusion/Fusion
   details:
   price: Free
-  github_repo: Runfusion/Fusion
   github_stars: 500
   opensource: true
 
 - name: kandev
   url: https://github.com/kdlbs/kandev
   icon_url: https://avatars.githubusercontent.com/u/254029050?v=4
+  links:
+    - https://github.com/kdlbs/kandev
   details:
   price: Free
-  github_repo: kdlbs/kandev
   github_stars: 200
   opensource: true
 
@@ -117,7 +116,6 @@
     - https://github.com/njbrake/agent-of-empires
   details:
   price: Free
-  github_repo: njbrake/agent-of-empires
   github_stars: 2200
   opensource: true
 
@@ -134,9 +132,9 @@
   url: https://paseo.sh/
   links:
     - https://discord.gg/jz8T2uahpH
+    - https://github.com/getpaseo/paseo
   details:
   price: Free
-  github_repo: getpaseo/paseo
   github_stars: 6100
   opensource: true
 
@@ -144,9 +142,9 @@
   url: https://www.shep.tools/
   links:
     - https://discord.gg/mEwuyz6xbj
+    - https://github.com/stumptowndoug/shep
   details:
   price: Free
-  github_repo: stumptowndoug/shep
   github_stars: 100
   opensource: true
 
@@ -156,7 +154,6 @@
     - https://github.com/ogulcancelik/herdr
   details: Terminal agent multiplexer
   price: Free
-  github_repo: ogulcancelik/herdr
   github_stars: 800
   opensource: true
 
@@ -167,18 +164,19 @@
     - https://x.com/nimbalyst
     - https://www.tiktok.com/@nimbalyst
     - https://www.instagram.com/nimbalyst
+    - https://github.com/nimbalyst/nimbalyst
   details:
   price: Free
-  github_repo: nimbalyst/nimbalyst
   github_stars: 500
   opensource: true
 
 - name: CodeNomad
   url: https://github.com/NeuralNomadsAI/CodeNomad
   icon_url: https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/dev/images/CodeNomad-Icon.png
+  links:
+    - https://github.com/NeuralNomadsAI/CodeNomad
   details: No custom website yet
   price: Free
-  github_repo: NeuralNomadsAI/CodeNomad
   github_stars: 1500
   opensource: true
 
@@ -205,9 +203,9 @@
   url: https://t3.codes/
   links:
     - https://discord.gg/jn4EGJjrvv
+    - https://github.com/pingdotgg/t3code
   details:
   price: Free
-  github_repo: pingdotgg/t3code
   github_stars: 11000
   opensource: true
 
@@ -216,8 +214,8 @@
   links:
     - https://discord.gg/acepe
     - https://x.com/acepedotdev
+    - https://github.com/flazouh/acepe
   details:
   price: Freemium
-  github_repo: flazouh/acepe
   github_stars: 100
   opensource: true

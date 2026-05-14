@@ -30,7 +30,7 @@ jobs:
           branch: update-github-stars
           commit-message: "chore: refresh GitHub star counts"
           title: "Refresh GitHub star counts"
-          body: "Automated daily update of `github_stars` in `dist/tools.yaml`."
+          body: "Automated daily update of `github_stars` in `dist/tools.yml`."
 
       - name: Merge pull request
         if: steps.create-pr.outputs.pull-request-number

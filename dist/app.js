@@ -19,7 +19,7 @@
   const formatStars = (n) => (n < 1000 ? `~${n}` : `${n / 1000}k`);
 
   const repoFirst = (a, b) =>
-    !!b.github_repo - !!a.github_repo;
+    !!getGithubUrl(b) - !!getGithubUrl(a);
 
   const byName = (a, b) => a.name.localeCompare(b.name);
 
@@ -52,13 +52,14 @@
                   <path d="M11 3a1 1 0 1 0 0 2h2.586l-6.293 6.293a1 1 0 1 0 1.414 1.414L15 6.414V9a1 1 0 1 0 2 0V4a1 1 0 0 0-1-1h-5z"/>
                   <path d="M5 5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-3a1 1 0 1 0-2 0v3H5V7h3a1 1 0 0 0 0-2H5z"/>
                 </svg>`;
-        const starsNumber = tool.github_repo
+        const githubUrl = getGithubUrl(tool);
+        const starsNumber = githubUrl
           ? `<span class="font-mono tabular-nums text-neutral-200">${formatStars(
               tool.github_stars || 0,
             )}</span>`
           : `<span class="text-neutral-600">—</span>`;
-        const stars = tool.github_repo
-          ? `<a href="https://github.com/${escapeAttr(tool.github_repo)}"
+        const stars = githubUrl
+          ? `<a href="${escapeAttr(githubUrl)}"
                 target="_blank" rel="noopener noreferrer"
                 class="inline-flex items-center gap-1.5 text-neutral-400 transition hover:text-neutral-100">
               ${starsNumber}
@@ -183,6 +184,23 @@
   }
   function isGitHubHost(host) {
     return host === "github.com";
+  }
+  function getGithubUrl(tool) {
+    if (!Array.isArray(tool.links))
+      return null;
+    return tool.links.find(link => getGithubRepo(link)) || null;
+  }
+  function getGithubRepo(link) {
+    try {
+      const url = new URL(link);
+      const host = url.host.replace(/^www\./, "");
+      const [owner, repo] = url.pathname.split("/").filter(Boolean);
+      if (host !== "github.com" || !owner || !repo)
+        return null;
+      return `${owner}/${repo.replace(/\.git$/, "")}`;
+    } catch {
+      return null;
+    }
   }
   function githubIconSvg() {
     return `<svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
