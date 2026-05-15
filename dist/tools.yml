@@ -21,6 +21,17 @@
   github_stars: 11000
   opensource: true
 
+- name: Orca
+  url: https://www.onorca.dev/
+  links:
+    - https://x.com/orca_build
+    - https://discord.gg/fzjDKHxv8Q
+    - https://github.com/stablyai/orca
+  details:
+  price: Free
+  github_stars: 2500
+  opensource: true
+
 - name: Zed
   url: https://zed.dev/
   links:
