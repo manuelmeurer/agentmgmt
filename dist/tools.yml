@@ -76,7 +76,7 @@
     - https://github.com/openchamber/openchamber
   details: Runs on OpenCode SDK
   price: Free
-  github_stars: 4200
+  github_stars: 4300
   opensource: true
 
 - name: jean
@@ -146,7 +146,7 @@
     - https://github.com/getpaseo/paseo
   details:
   price: Free
-  github_stars: 6100
+  github_stars: 6200
   opensource: true
 
 - name: Shep
@@ -188,7 +188,7 @@
     - https://github.com/NeuralNomadsAI/CodeNomad
   details: No custom website yet
   price: Free
-  github_stars: 1500
+  github_stars: 1600
   opensource: true
 
 - name: Cursor
