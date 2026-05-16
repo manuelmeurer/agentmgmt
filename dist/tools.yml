@@ -29,7 +29,7 @@
     - https://github.com/stablyai/orca
   details:
   price: Free
-  github_stars: 2500
+  github_stars: 2600
   opensource: true
 
 - name: Zed
@@ -108,7 +108,7 @@
     - https://github.com/Runfusion/Fusion
   details:
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
 
 - name: kandev
@@ -127,7 +127,7 @@
     - https://github.com/njbrake/agent-of-empires
   details:
   price: Free
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
 
 - name: Opcode
@@ -217,7 +217,7 @@
     - https://github.com/pingdotgg/t3code
   details:
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
 
 - name: Acepe
