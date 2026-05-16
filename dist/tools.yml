@@ -9,6 +9,16 @@
   github_stars: 0
   opensource: false
 
+- name: Superconductor
+  url: https://super.engineering/
+  links:
+    - https://x.com/superdoteng
+    - https://discord.gg/3uRuntNU2K
+  details:
+  price: Free
+  github_stars: 0
+  opensource: false
+
 - name: Superset
   url: https://superset.sh/
   links:
