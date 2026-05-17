@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 
-const FILE = new URL("../dist/tools.yml", import.meta.url);
+const FILE = new URL("../src/tools.yml", import.meta.url);
 const token = process.env.GITHUB_TOKEN;
 
 const text = await readFile(FILE, "utf8");
