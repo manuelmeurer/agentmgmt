@@ -4,7 +4,6 @@
     - https://x.com/conductor_build
     - https://www.youtube.com/@conductor_build
     - https://www.reddit.com/r/conductorbuild/
-  details: Supports only Claude Code and Codex so far
   price: Free
   github_stars: 0
   opensource: false
@@ -15,7 +14,6 @@
   links:
     - https://x.com/superdoteng
     - https://discord.gg/3uRuntNU2K
-  details:
   price: Free
   github_stars: 0
   opensource: false
@@ -28,7 +26,6 @@
     - https://x.com/superset_sh
     - https://discord.gg/cZeD9WYcV7
     - https://github.com/superset-sh/superset
-  details:
   price: Free
   github_stars: 11000
   opensource: true
@@ -40,7 +37,6 @@
     - https://x.com/orca_build
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
-  details:
   price: Free
   github_stars: 2600
   opensource: true
@@ -55,7 +51,6 @@
     - https://discord.com/invite/zedindustries
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
-  details: Primarily an editor
   price: Freemium
   github_stars: 83000
   opensource: true
@@ -80,7 +75,6 @@
     - https://x.com/manaflowai
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
-  details: Primarily a terminal
   price: Free
   github_stars: 17000
   opensource: true
@@ -91,7 +85,6 @@
   links:
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
-  details: Runs on OpenCode SDK
   price: Free
   github_stars: 4300
   opensource: true
@@ -101,7 +94,6 @@
   url: https://jean.build/
   links:
     - https://github.com/coollabsio/jean
-  details:
   price: Free
   github_stars: 900
   opensource: true
@@ -109,7 +101,6 @@
 
 - name: nyx
   url: https://getnyx.dev/
-  details:
   price: Paid
   github_stars: 0
   opensource: false
@@ -117,7 +108,6 @@
 
 - name: maestri
   url: https://www.themaestri.app/
-  details:
   price: Freemium
   github_stars: 0
   opensource: false
@@ -127,7 +117,6 @@
   url: https://runfusion.ai/
   links:
     - https://github.com/Runfusion/Fusion
-  details:
   price: Free
   github_stars: 600
   opensource: true
@@ -138,7 +127,6 @@
   icon_url: https://avatars.githubusercontent.com/u/254029050?v=4
   links:
     - https://github.com/kdlbs/kandev
-  details:
   price: Free
   github_stars: 200
   opensource: true
@@ -148,7 +136,6 @@
   url: https://www.agent-of-empires.com/
   links:
     - https://github.com/njbrake/agent-of-empires
-  details:
   price: Free
   github_stars: 2300
   opensource: true
@@ -158,7 +145,6 @@
   url: https://opcode.sh/
   links:
     - https://x.com/getAsterisk
-  details:
   price: Free
   github_stars: 0
   opensource: true
@@ -169,7 +155,6 @@
   links:
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
-  details:
   price: Free
   github_stars: 6300
   opensource: true
@@ -180,7 +165,6 @@
   links:
     - https://discord.gg/mEwuyz6xbj
     - https://github.com/stumptowndoug/shep
-  details:
   price: Free
   github_stars: 100
   opensource: true
@@ -190,7 +174,6 @@
   url: https://herdr.dev/
   links:
     - https://github.com/ogulcancelik/herdr
-  details: Terminal agent multiplexer
   price: Free
   github_stars: 900
   opensource: true
@@ -204,7 +187,6 @@
     - https://www.tiktok.com/@nimbalyst
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
-  details:
   price: Free
   github_stars: 500
   opensource: true
@@ -215,7 +197,6 @@
   icon_url: https://raw.githubusercontent.com/NeuralNomadsAI/CodeNomad/dev/images/CodeNomad-Icon.png
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
-  details: No custom website yet
   price: Free
   github_stars: 1600
   opensource: true
@@ -226,7 +207,6 @@
   links:
     - https://x.com/cursor_ai
     - https://www.youtube.com/@cursor_ai
-  details: Very limited free plan
   price: Freemium
   github_stars: 0
   opensource: false
@@ -236,7 +216,6 @@
   url: https://devin.ai/
   links:
     - https://x.com/cognition
-  details:
   price: Freemium
   github_stars: 0
   opensource: false
@@ -247,7 +226,6 @@
   links:
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
-  details:
   price: Free
   github_stars: 12000
   opensource: true
@@ -259,7 +237,6 @@
     - https://discord.gg/acepe
     - https://x.com/acepedotdev
     - https://github.com/flazouh/acepe
-  details:
   price: Freemium
   github_stars: 100
   opensource: true
@@ -272,7 +249,6 @@
     - https://github.com/warpdotdev
     - https://www.youtube.com/@warpdotdev
     - https://go.warp.dev/join-preview
-  details:
   price: Freemium
   github_stars: 0
   opensource: true
@@ -280,7 +256,6 @@
 
 - name: Solo
   url: https://soloterm.com/
-  details:
   price: Freemium
   github_stars: 0
   opensource: false
@@ -291,7 +266,6 @@
   links:
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
-  details:
   price: Free
   github_stars: 0
   opensource: true
