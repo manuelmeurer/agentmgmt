@@ -114,7 +114,35 @@
           <div class="flex items-center gap-3">
             <div class="relative">
               <select
+                id="os-filter"
+                aria-label="Filter by platform"
+                class="appearance-none rounded-md border border-neutral-800 bg-neutral-900 py-2 pl-3 pr-9 text-sm text-neutral-200 transition hover:border-neutral-700 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
+              >
+                <option value="all" selected>All platforms</option>
+                <option value="macos">macOS</option>
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+                <option value="web">Web</option>
+                <option value="android">Android</option>
+                <option value="ios">iOS</option>
+              </select>
+              <svg
+                class="pointer-events-none absolute right-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.06l3.71-3.83a.75.75 0 1 1 1.08 1.04l-4.25 4.39a.75.75 0 0 1-1.08 0L5.21 8.27a.75.75 0 0 1 .02-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="relative">
+              <select
                 id="sort"
+                aria-label="Sort tools"
                 class="appearance-none rounded-md border border-neutral-800 bg-neutral-900 py-2 pl-3 pr-9 text-sm text-neutral-200 transition hover:border-neutral-700 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
               >
                 <option value="name-asc" selected>Name (A → Z)</option>

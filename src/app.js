@@ -2,6 +2,7 @@ import { renderToolRows } from "/render-tools.mjs";
 
 const tbody = document.getElementById("ide-rows");
 const sortSelect = document.getElementById("sort");
+const osSelect = document.getElementById("os-filter");
 const dataScript = document.getElementById("tools-data");
 
 let tools = [];
@@ -13,7 +14,10 @@ try {
 }
 
 if (tools.length) {
-  sortSelect.addEventListener("change", () => {
-    tbody.innerHTML = renderToolRows(tools, sortSelect.value);
-  });
+  const renderRows = () => {
+    tbody.innerHTML = renderToolRows(tools, sortSelect.value, osSelect.value);
+  };
+
+  sortSelect.addEventListener("change", renderRows);
+  osSelect.addEventListener("change", renderRows);
 }

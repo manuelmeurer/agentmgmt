@@ -105,7 +105,7 @@
   price: Free
   github_stars: 900
   opensource: true
-  os: [macos]
+  os: [macos, windows, linux]
 
 - name: nyx
   url: https://getnyx.dev/
@@ -152,7 +152,7 @@
   price: Free
   github_stars: 2300
   opensource: true
-  os: [macos, linux]
+  os: [macos, linux, web]
 
 - name: Opcode
   url: https://opcode.sh/
@@ -162,7 +162,7 @@
   price: Free
   github_stars: 0
   opensource: true
-  os: [macos, linux, windows]
+  os: [macos, linux]
 
 - name: Paseo
   url: https://paseo.sh/
@@ -173,7 +173,7 @@
   price: Free
   github_stars: 6300
   opensource: true
-  os: [macos, linux, windows, web]
+  os: [macos, web, android, ios]
 
 - name: Shep
   url: https://www.shep.tools/
@@ -219,7 +219,7 @@
   price: Free
   github_stars: 1600
   opensource: true
-  os: [macos, linux, windows]
+  os: [macos, linux, windows, web]
 
 - name: Cursor
   url: https://cursor.com/
@@ -240,7 +240,7 @@
   price: Freemium
   github_stars: 0
   opensource: false
-  os: [web, macos, linux]
+  os: [web]
 
 - name: T3 Code
   url: https://t3.codes/
@@ -251,7 +251,7 @@
   price: Free
   github_stars: 12000
   opensource: true
-  os: [macos, linux, windows, web]
+  os: [macos, linux, windows]
 
 - name: Acepe
   url: https://acepe.dev/
@@ -263,7 +263,7 @@
   price: Freemium
   github_stars: 100
   opensource: true
-  os: [macos, linux, windows]
+  os: [macos]
 
 - name: Warp
   url: https://www.warp.dev/terminal
@@ -295,4 +295,4 @@
   price: Free
   github_stars: 0
   opensource: true
-  os: [macos, android, ios]
+  os: [macos]

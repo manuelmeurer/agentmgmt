@@ -11,9 +11,14 @@ export const comparators = {
   "name-desc": (a, b) => b.name.localeCompare(a.name),
 };
 
-export function renderToolRows(tools, sortKey) {
+export function renderToolRows(tools, sortKey, osFilter = "all") {
   const comparator = comparators[sortKey] || comparators["name-asc"];
-  return [...tools].sort(comparator).map(renderRow).join("");
+  const filteredTools = osFilter === "all"
+    ? tools
+    : tools.filter(tool => Array.isArray(tool.os) && tool.os.includes(osFilter));
+  if (!filteredTools.length)
+    return `<tr><td colspan="6" class="px-6 py-12 text-center text-neutral-500">No tools for this platform.</td></tr>`;
+  return [...filteredTools].sort(comparator).map(renderRow).join("");
 }
 
 function renderRow(tool) {
