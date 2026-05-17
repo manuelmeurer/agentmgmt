@@ -156,7 +156,7 @@
     - https://github.com/getpaseo/paseo
   details:
   price: Free
-  github_stars: 6200
+  github_stars: 6300
   opensource: true
 
 - name: Shep
@@ -175,7 +175,7 @@
     - https://github.com/ogulcancelik/herdr
   details: Terminal agent multiplexer
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
 
 - name: Nimbalyst
