@@ -21,6 +21,22 @@ export function renderToolRows(tools, sortKey, osFilter = "all") {
   return [...filteredTools].sort(comparator).map(renderRow).join("");
 }
 
+export function renderOsFilterOptions(tools, selectedValue = "all") {
+  const counts = countPlatforms(tools);
+  const options = [
+    { value: "all", label: "All platforms", count: tools.length },
+    ...OS_FILTER_PLATFORMS.map(({ value, label }) => (
+      { value, label, count: counts[value] || 0 }
+    )),
+  ];
+  return options
+    .map(({ value, label, count }) => {
+      const selected = value === selectedValue ? " selected" : "";
+      return `<option value="${escapeAttr(value)}"${selected}>${escapeHtml(label)} (${count})</option>`;
+    })
+    .join("");
+}
+
 function renderRow(tool) {
   const host = getHost(tool.url);
   const githubUrl = getGithubUrl(tool);
@@ -103,6 +119,17 @@ function renderOs(os) {
     .join("")}</div>`;
 }
 
+function countPlatforms(tools) {
+  return tools.reduce((counts, tool) => {
+    if (!Array.isArray(tool.os))
+      return counts;
+    tool.os.forEach(value => {
+      counts[value] = (counts[value] || 0) + 1;
+    });
+    return counts;
+  }, {});
+}
+
 function byName(a, b) {
   return a.name.localeCompare(b.name);
 }
@@ -177,6 +204,15 @@ const PLATFORMS = [
   { value: "macos", label: "macOS" },
   { value: "windows", label: "Windows" },
   { value: "linux", label: "Linux" },
+  { value: "android", label: "Android" },
+  { value: "ios", label: "iOS" },
+];
+
+const OS_FILTER_PLATFORMS = [
+  { value: "macos", label: "macOS" },
+  { value: "windows", label: "Windows" },
+  { value: "linux", label: "Linux" },
+  { value: "web", label: "Web" },
   { value: "android", label: "Android" },
   { value: "ios", label: "iOS" },
 ];

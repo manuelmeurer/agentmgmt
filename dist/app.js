@@ -1,4 +1,4 @@
-import { renderToolRows } from "/render-tools.mjs";
+import { renderOsFilterOptions, renderToolRows } from "/render-tools.mjs";
 
 const tbody = document.getElementById("ide-rows");
 const sortSelect = document.getElementById("sort");
@@ -14,6 +14,8 @@ try {
 }
 
 if (tools.length) {
+  osSelect.innerHTML = renderOsFilterOptions(tools, osSelect.value);
+
   const renderRows = () => {
     tbody.innerHTML = renderToolRows(tools, sortSelect.value, osSelect.value);
   };

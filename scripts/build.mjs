@@ -4,7 +4,7 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import yaml from "js-yaml";
-import { renderToolRows } from "../src/render-tools.mjs";
+import { renderOsFilterOptions, renderToolRows } from "../src/render-tools.mjs";
 
 const exec = promisify(execFile);
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -20,11 +20,13 @@ const [htmlTemplate, toolsYaml] = await Promise.all([
 const tools = yaml.load(toolsYaml) || [];
 
 const rows = renderToolRows(tools, "name-asc");
+const osFilterOptions = renderOsFilterOptions(tools);
 const jsonTag = `<script type="application/json" id="tools-data">${JSON.stringify(tools).replace(/</g, "\\u003c")}</script>`;
 const lastUpdated = await lastUpdatedPhrase();
 
 const html = htmlTemplate
   .replace("<!-- TOOLS_ROWS -->", rows)
+  .replace("<!-- OS_FILTER_OPTIONS -->", osFilterOptions)
   .replace("<!-- TOOLS_JSON -->", jsonTag)
   .replace("<!-- LAST_UPDATED -->", lastUpdated);
 
