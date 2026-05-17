@@ -60,11 +60,8 @@ function renderRow(tool) {
           ${externalLinkSvg}
         </a>
       </td>
-      <td class="px-6 py-4">${linkFavicons}</td>
-      <td class="px-6 py-4 max-w-md text-neutral-400">${
-        tool.details ? escapeHtml(tool.details) : `<span class="text-neutral-600">—</span>`
-      }</td>
       <td class="px-6 py-4">${renderOs(tool.os)}</td>
+      <td class="px-6 py-4">${linkFavicons}</td>
       <td class="px-6 py-4 text-neutral-400">${
         tool.price ? escapeHtml(tool.price) : `<span class="text-neutral-600">—</span>`
       }</td>
