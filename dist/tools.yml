@@ -8,6 +8,7 @@
   price: Free
   github_stars: 0
   opensource: false
+  os: [macos]
 
 - name: Superconductor
   url: https://super.engineering/
@@ -18,6 +19,7 @@
   price: Free
   github_stars: 0
   opensource: false
+  os: [macos]
 
 - name: Superset
   url: https://superset.sh/
@@ -30,6 +32,7 @@
   price: Free
   github_stars: 11000
   opensource: true
+  os: [macos]
 
 - name: Orca
   url: https://www.onorca.dev/
@@ -41,6 +44,7 @@
   price: Free
   github_stars: 2600
   opensource: true
+  os: [macos, linux, windows]
 
 - name: Zed
   url: https://zed.dev/
@@ -55,6 +59,7 @@
   price: Freemium
   github_stars: 83000
   opensource: true
+  os: [macos, linux, windows]
 
 - name: VS Code Agents Window
   url: https://code.visualstudio.com/docs/copilot/agents/agents-window
@@ -67,6 +72,7 @@
   price: Free
   github_stars: 0
   opensource: false
+  os: [macos, linux, windows]
 
 - name: cmux
   url: https://cmux.com/
@@ -78,6 +84,7 @@
   price: Free
   github_stars: 17000
   opensource: true
+  os: [macos]
 
 - name: OpenChamber
   url: https://openchamber.dev/
@@ -88,6 +95,7 @@
   price: Free
   github_stars: 4300
   opensource: true
+  os: [macos, web]
 
 - name: jean
   url: https://jean.build/
@@ -97,6 +105,7 @@
   price: Free
   github_stars: 900
   opensource: true
+  os: [macos]
 
 - name: nyx
   url: https://getnyx.dev/
@@ -104,6 +113,7 @@
   price: Paid
   github_stars: 0
   opensource: false
+  os: [macos]
 
 - name: maestri
   url: https://www.themaestri.app/
@@ -111,6 +121,7 @@
   price: Freemium
   github_stars: 0
   opensource: false
+  os: [macos]
 
 - name: fusion
   url: https://runfusion.ai/
@@ -120,6 +131,7 @@
   price: Free
   github_stars: 600
   opensource: true
+  os: [macos, linux, windows, web]
 
 - name: kandev
   url: https://github.com/kdlbs/kandev
@@ -130,6 +142,7 @@
   price: Free
   github_stars: 200
   opensource: true
+  os: [macos, linux, windows]
 
 - name: Agent of Empires
   url: https://www.agent-of-empires.com/
@@ -139,6 +152,7 @@
   price: Free
   github_stars: 2300
   opensource: true
+  os: [macos, linux]
 
 - name: Opcode
   url: https://opcode.sh/
@@ -148,6 +162,7 @@
   price: Free
   github_stars: 0
   opensource: true
+  os: [macos, linux, windows]
 
 - name: Paseo
   url: https://paseo.sh/
@@ -158,6 +173,7 @@
   price: Free
   github_stars: 6300
   opensource: true
+  os: [macos, linux, windows, web]
 
 - name: Shep
   url: https://www.shep.tools/
@@ -168,6 +184,7 @@
   price: Free
   github_stars: 100
   opensource: true
+  os: [macos]
 
 - name: Herdr
   url: https://herdr.dev/
@@ -177,6 +194,7 @@
   price: Free
   github_stars: 900
   opensource: true
+  os: [macos, linux]
 
 - name: Nimbalyst
   url: https://nimbalyst.com/
@@ -190,6 +208,7 @@
   price: Free
   github_stars: 500
   opensource: true
+  os: [macos, linux, windows]
 
 - name: CodeNomad
   url: https://github.com/NeuralNomadsAI/CodeNomad
@@ -200,6 +219,7 @@
   price: Free
   github_stars: 1600
   opensource: true
+  os: [macos, linux, windows]
 
 - name: Cursor
   url: https://cursor.com/
@@ -210,6 +230,7 @@
   price: Freemium
   github_stars: 0
   opensource: false
+  os: [macos, linux, windows]
 
 - name: Devin
   url: https://devin.ai/
@@ -219,6 +240,7 @@
   price: Freemium
   github_stars: 0
   opensource: false
+  os: [web, macos, linux]
 
 - name: T3 Code
   url: https://t3.codes/
@@ -229,6 +251,7 @@
   price: Free
   github_stars: 12000
   opensource: true
+  os: [macos, linux, windows, web]
 
 - name: Acepe
   url: https://acepe.dev/
@@ -240,3 +263,36 @@
   price: Freemium
   github_stars: 100
   opensource: true
+  os: [macos, linux, windows]
+
+- name: Warp
+  url: https://www.warp.dev/terminal
+  links:
+    - https://x.com/warpdotdev
+    - https://github.com/warpdotdev
+    - https://www.youtube.com/@warpdotdev
+    - https://go.warp.dev/join-preview
+  details:
+  price: Freemium
+  github_stars: 0
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Solo
+  url: https://soloterm.com/
+  details:
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
+- name: Muxy
+  url: https://muxy.app/
+  links:
+    - https://discord.gg/4eMXAmJQ2n
+    - https://github.com/muxy-app/muxy
+  details:
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, android, ios]

@@ -17,6 +17,7 @@ Edit [`dist/tools.yml`](dist/tools.yml) and open a PR. Each entry looks like:
   price: Free | Freemium | Paid (optional)
   github_stars: 0              # populated by the daily workflow
   opensource: true             # or false
+  os: [macos, linux, windows, web]   # any subset; use "web" for cloud-only tools
 ```
 
 Fields with no value can be left blank (e.g. `details:`).
