@@ -132,6 +132,15 @@
   opensource: true
   os: [macos, linux, windows]
 
+- name: Kooky
+  url: https://github.com/iAmCorey/kooky
+  links:
+    - https://github.com/iAmCorey/kooky
+  price: Free
+  github_stars: 100
+  opensource: true
+  os: [macos]
+
 - name: Agent of Empires
   url: https://www.agent-of-empires.com/
   links:
