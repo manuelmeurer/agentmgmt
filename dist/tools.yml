@@ -134,6 +134,7 @@
 
 - name: Kooky
   url: https://github.com/iAmCorey/kooky
+  icon_url: https://raw.githubusercontent.com/iAmCorey/kooky/main/branding/icons/icon-512.png
   links:
     - https://github.com/iAmCorey/kooky
   price: Free
@@ -210,6 +211,13 @@
   github_stars: 1600
   opensource: true
   os: [macos, linux, windows, web]
+
+- name: Codex
+  url: https://developers.openai.com/codex/app
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos, windows]
 
 - name: Cursor
   url: https://cursor.com/
