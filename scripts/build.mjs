@@ -4,7 +4,13 @@ import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import yaml from "js-yaml";
-import { renderOsFilterOptions, renderToolRows } from "../src/render-tools.mjs";
+import {
+  getExtraTools,
+  getPrimaryTools,
+  renderOsFilterOptions,
+  renderStaticToolRows,
+  renderToolRows,
+} from "../src/render-tools.mjs";
 
 const exec = promisify(execFile);
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -18,14 +24,18 @@ const [htmlTemplate, toolsYaml] = await Promise.all([
   readFile(join(src, "tools.yml"), "utf8"),
 ]);
 const tools = yaml.load(toolsYaml) || [];
+const primaryTools = getPrimaryTools(tools);
+const extraTools = getExtraTools(tools);
 
-const rows = renderToolRows(tools, "name-asc");
-const osFilterOptions = renderOsFilterOptions(tools);
+const rows = renderToolRows(primaryTools, "name-asc");
+const extraRows = renderStaticToolRows(extraTools);
+const osFilterOptions = renderOsFilterOptions(primaryTools);
 const jsonTag = `<script type="application/json" id="tools-data">${JSON.stringify(tools).replace(/</g, "\\u003c")}</script>`;
 const lastUpdated = await lastUpdatedPhrase();
 
 const html = htmlTemplate
   .replace("<!-- TOOLS_ROWS -->", rows)
+  .replace("<!-- EXTRA_TOOLS_ROWS -->", extraRows)
   .replace("<!-- OS_FILTER_OPTIONS -->", osFilterOptions)
   .replace("<!-- TOOLS_JSON -->", jsonTag)
   .replace("<!-- LAST_UPDATED -->", lastUpdated);

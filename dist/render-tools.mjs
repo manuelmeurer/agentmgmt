@@ -21,6 +21,12 @@ export function renderToolRows(tools, sortKey, osFilter = "all") {
   return [...filteredTools].sort(comparator).map(renderRow).join("");
 }
 
+export function renderStaticToolRows(tools, emptyMessage = "No tools listed.") {
+  if (!tools.length)
+    return `<tr><td colspan="6" class="px-6 py-12 text-center text-neutral-500">${escapeHtml(emptyMessage)}</td></tr>`;
+  return tools.map(renderRow).join("");
+}
+
 export function renderOsFilterOptions(tools, selectedValue = "all") {
   const counts = countPlatforms(tools);
   const options = [
@@ -35,6 +41,14 @@ export function renderOsFilterOptions(tools, selectedValue = "all") {
       return `<option value="${escapeAttr(value)}"${selected}>${escapeHtml(label)} (${count})</option>`;
     })
     .join("");
+}
+
+export function getPrimaryTools(tools) {
+  return tools.filter(tool => tool.table !== "extra");
+}
+
+export function getExtraTools(tools) {
+  return tools.filter(tool => tool.table === "extra");
 }
 
 function renderRow(tool) {

@@ -1,4 +1,8 @@
-import { renderOsFilterOptions, renderToolRows } from "/render-tools.mjs";
+import {
+  getPrimaryTools,
+  renderOsFilterOptions,
+  renderToolRows,
+} from "/render-tools.mjs";
 
 const tbody = document.getElementById("ide-rows");
 const sortSelect = document.getElementById("sort");
@@ -10,14 +14,16 @@ try {
   tools = JSON.parse(dataScript.textContent) || [];
 } catch (error) {
   console.error("Failed to parse embedded tools data", error);
-  tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-red-400">Failed to load data.</td></tr>`;
+  tbody.innerHTML = `<tr><td colspan="6" class="px-6 py-12 text-center text-red-400">Failed to load data.</td></tr>`;
 }
 
-if (tools.length) {
-  osSelect.innerHTML = renderOsFilterOptions(tools, osSelect.value);
+const primaryTools = getPrimaryTools(tools);
+
+if (primaryTools.length) {
+  osSelect.innerHTML = renderOsFilterOptions(primaryTools, osSelect.value);
 
   const renderRows = () => {
-    tbody.innerHTML = renderToolRows(tools, sortSelect.value, osSelect.value);
+    tbody.innerHTML = renderToolRows(primaryTools, sortSelect.value, osSelect.value);
   };
 
   sortSelect.addEventListener("change", renderRows);
