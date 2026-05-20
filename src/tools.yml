@@ -59,7 +59,7 @@
 
 - name: VS Code
   table: extra
-  url: https://code.visualstudio.com/docs/copilot/agents/agents-window
+  url: https://code.visualstudio.com/
   links:
     - https://x.com/code
     - https://bsky.app/profile/vscode.dev
