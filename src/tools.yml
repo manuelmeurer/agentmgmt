@@ -212,7 +212,7 @@
   opensource: true
   os: [macos, linux, windows, web]
 
-- name: Codex
+- name: Codex app
   url: https://developers.openai.com/codex/app
   price: Free
   github_stars: 0
