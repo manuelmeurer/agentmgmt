@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 2900
+  github_stars: 3000
   opensource: true
   os: [macos, linux, windows]
 
@@ -86,7 +86,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 17000
+  github_stars: 18000
   opensource: true
   os: [macos]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 4400
+  github_stars: 4500
   opensource: true
   os: [macos, web]
 
@@ -105,7 +105,7 @@
   links:
     - https://github.com/coollabsio/jean
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos, windows, linux]
 
@@ -176,7 +176,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 6400
+  github_stars: 6500
   opensource: true
   os: [macos, web, android, ios]
 
@@ -195,7 +195,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 1700
+  github_stars: 1900
   opensource: true
   os: [macos, linux]
 
@@ -208,7 +208,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
   os: [macos, linux, windows]
 
@@ -294,6 +294,6 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos]
