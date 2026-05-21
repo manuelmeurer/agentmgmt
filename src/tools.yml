@@ -100,6 +100,26 @@
   opensource: true
   os: [macos, web]
 
+- name: Emdash
+  url: https://www.emdash.sh/
+  links:
+    - https://discord.com/invite/f2fv7YxuR2
+    - https://x.com/emdashsh
+    - https://github.com/generalaction/emdash
+  price: Free
+  github_stars: 4600
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Spruce
+  url: https://buildwithspruce.com/
+  links:
+    - https://discord.gg/q8bumJCxD6
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos, windows, linux]
+
 - name: jean
   url: https://jean.build/
   links:
