@@ -1,6 +1,6 @@
 # Agent MGMT
 
-The independent guide to agent orchestrators — a community-maintained list of agentic IDEs and AI coding tools.
+The independent guide to coding agent orchestrators — a community-maintained list of agentic IDEs and AI coding tools.
 
 Live at [agentmgmt.dev](https://agentmgmt.dev).
 
