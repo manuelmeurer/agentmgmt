@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 3000
+  github_stars: 3100
   opensource: true
   os: [macos, linux, windows]
 
@@ -53,7 +53,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 83000
+  github_stars: 84000
   opensource: true
   os: [macos, linux, windows]
 
@@ -158,7 +158,7 @@
   links:
     - https://github.com/kdlbs/kandev
   price: Free
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos, linux, windows]
 
@@ -168,7 +168,7 @@
   links:
     - https://github.com/iAmCorey/kooky
   price: Free
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 1900
+  github_stars: 2000
   opensource: true
   os: [macos, linux]
 
@@ -238,7 +238,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 1600
+  github_stars: 1700
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -314,6 +314,6 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos]
