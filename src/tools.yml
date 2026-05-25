@@ -40,7 +40,7 @@
   price: Free
   github_stars: 3300
   opensource: true
-  os: [macos, linux, windows]
+  os: [macos, linux, windows, android, ios]
 
 - name: Zed
   table: extra
