@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 3500
+  github_stars: 3600
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 4600
+  github_stars: 4700
   opensource: true
   os: [macos, web]
 
@@ -107,7 +107,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 4600
+  github_stars: 4700
   opensource: true
   os: [macos, linux, windows]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 2600
+  github_stars: 2700
   opensource: true
   os: [macos, linux]
 
