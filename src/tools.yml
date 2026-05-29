@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 3600
+  github_stars: 3700
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -177,7 +177,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2400
+  github_stars: 2500
   opensource: true
   os: [macos, linux, web]
 
@@ -196,7 +196,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 6800
+  github_stars: 6900
   opensource: true
   os: [macos, web, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 2700
+  github_stars: 2900
   opensource: true
   os: [macos, linux]
 
