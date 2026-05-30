@@ -196,7 +196,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 6900
+  github_stars: 7000
   opensource: true
   os: [macos, web, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 2900
+  github_stars: 3000
   opensource: true
   os: [macos, linux]
 
@@ -228,7 +228,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos, linux, windows]
 
