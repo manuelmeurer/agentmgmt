@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 3700
+  github_stars: 3800
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -86,7 +86,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 20000
+  github_stars: 21000
   opensource: true
   os: [macos]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 4700
+  github_stars: 4800
   opensource: true
   os: [macos, web]
 
@@ -148,7 +148,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 3000
+  github_stars: 3300
   opensource: true
   os: [macos, linux]
 
@@ -314,6 +314,6 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 1600
+  github_stars: 1700
   opensource: true
   os: [macos]
