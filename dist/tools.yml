@@ -27,7 +27,7 @@
     - https://discord.gg/cZeD9WYcV7
     - https://github.com/superset-sh/superset
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos]
 
@@ -38,7 +38,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 3800
+  github_stars: 4000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 3500
+  github_stars: 3800
   opensource: true
   os: [macos, linux]
 
