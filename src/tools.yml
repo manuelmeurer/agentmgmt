@@ -96,7 +96,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 4800
+  github_stars: 4900
   opensource: true
   os: [macos, web]
 
@@ -196,7 +196,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 7100
+  github_stars: 7400
   opensource: true
   os: [macos, web, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 3800
+  github_stars: 3900
   opensource: true
   os: [macos, linux]
 
@@ -238,7 +238,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 1700
+  github_stars: 1800
   opensource: true
   os: [macos, linux, windows, web]
 
