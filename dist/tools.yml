@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 4700
+  github_stars: 4800
   opensource: true
   os: [macos, linux]
 
@@ -228,7 +228,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 700
+  github_stars: 800
   opensource: true
   os: [macos, linux, windows]
 
