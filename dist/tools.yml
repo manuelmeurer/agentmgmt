@@ -177,7 +177,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2500
+  github_stars: 2600
   opensource: true
   os: [macos, linux, web]
 
@@ -196,7 +196,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 8100
+  github_stars: 8200
   opensource: true
   os: [macos, web, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 5100
+  github_stars: 5200
   opensource: true
   os: [macos, linux]
 
@@ -274,7 +274,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 12000
+  github_stars: 13000
   opensource: true
   os: [macos, linux, windows]
 
@@ -314,6 +314,6 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 1700
+  github_stars: 1800
   opensource: true
   os: [macos]
