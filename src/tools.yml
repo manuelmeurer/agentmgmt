@@ -196,7 +196,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 8300
+  github_stars: 8400
   opensource: true
   os: [macos, web, android, ios]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 5300
+  github_stars: 5400
   opensource: true
   os: [macos, linux]
 
