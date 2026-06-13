@@ -152,6 +152,17 @@
   opensource: true
   os: [macos, linux, windows, web]
 
+- name: Ghostex
+  url: https://ghostex.dev/
+  links:
+    - https://discord.gg/df7b3G92CS
+    - https://github.com/maddada/Ghostex
+    - https://x.com/maddada
+  price: Free
+  github_stars: 400
+  opensource: true
+  os: [macos, android, ios]
+
 - name: kandev
   url: https://github.com/kdlbs/kandev
   icon_url: https://avatars.githubusercontent.com/u/254029050?v=4
