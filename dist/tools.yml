@@ -19,6 +19,27 @@
   opensource: false
   os: [macos]
 
+- name: stagewise
+  url: https://stagewise.io/
+  links:
+    - https://x.com/stagewise_io
+    - https://discord.gg/gkdGsDYaKA
+    - https://github.com/stagewise-io/stagewise
+  price: Freemium
+  github_stars: 6700
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Synara
+  url: https://www.trysynara.com/
+  links:
+    - https://x.com/trySynara
+    - https://github.com/Emanuele-web04/synara
+  price: Free
+  github_stars: 800
+  opensource: true
+  os: [macos]
+
 - name: Superset
   url: https://superset.sh/
   links:
