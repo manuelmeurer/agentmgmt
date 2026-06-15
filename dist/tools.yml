@@ -36,7 +36,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos]
 
@@ -128,7 +128,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 4800
+  github_stars: 4900
   opensource: true
   os: [macos, linux, windows]
 
@@ -228,7 +228,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 8500
+  github_stars: 8600
   opensource: true
   os: [macos, web, android, ios]
 
@@ -247,7 +247,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 5600
+  github_stars: 5700
   opensource: true
   os: [macos, linux]
 
