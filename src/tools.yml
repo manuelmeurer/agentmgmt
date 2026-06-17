@@ -59,7 +59,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 5000
+  github_stars: 5100
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -146,7 +146,7 @@
   links:
     - https://github.com/coollabsio/jean
   price: Free
-  github_stars: 1000
+  github_stars: 1100
   opensource: true
   os: [macos, windows, linux]
 
@@ -200,7 +200,7 @@
   links:
     - https://github.com/iAmCorey/kooky
   price: Free
-  github_stars: 400
+  github_stars: 500
   opensource: true
   os: [macos]
 
@@ -247,7 +247,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 5900
+  github_stars: 6000
   opensource: true
   os: [macos, linux]
 
