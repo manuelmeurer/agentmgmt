@@ -52,6 +52,17 @@
   opensource: true
   os: [macos]
 
+- name: Supacode
+  url: https://supacode.sh/
+  icon_url: https://supacode.sh/supacode-app-icon.png
+  links:
+    - https://x.com/khoiracle
+    - https://github.com/supabitapp/supacode
+  price: Free
+  github_stars: 1200
+  opensource: true
+  os: [macos]
+
 - name: Orca
   url: https://www.onorca.dev/
   links:
