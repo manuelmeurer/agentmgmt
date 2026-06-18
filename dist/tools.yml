@@ -59,7 +59,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 5100
+  github_stars: 5300
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -117,7 +117,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 5400
+  github_stars: 5500
   opensource: true
   os: [macos, web]
 
@@ -190,7 +190,7 @@
   links:
     - https://github.com/kdlbs/kandev
   price: Free
-  github_stars: 300
+  github_stars: 400
   opensource: true
   os: [macos, linux, windows]
 
@@ -228,7 +228,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 8700
+  github_stars: 8800
   opensource: true
   os: [macos, web, android, ios]
 
@@ -247,7 +247,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 6000
+  github_stars: 6200
   opensource: true
   os: [macos, linux]
 
@@ -260,7 +260,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos, linux, windows]
 
