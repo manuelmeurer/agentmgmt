@@ -59,7 +59,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 5300
+  github_stars: 5400
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -85,7 +85,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 85000
+  github_stars: 86000
   opensource: true
   os: [macos, linux, windows]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 6200
+  github_stars: 6300
   opensource: true
   os: [macos, linux]
 
