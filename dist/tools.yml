@@ -59,7 +59,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 1500
+  github_stars: 1600
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 5900
+  github_stars: 6100
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -128,7 +128,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 5600
+  github_stars: 5700
   opensource: true
   os: [macos, web]
 
@@ -139,7 +139,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 4900
+  github_stars: 5000
   opensource: true
   os: [macos, linux, windows]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 6700
+  github_stars: 6900
   opensource: true
   os: [macos, linux]
 
