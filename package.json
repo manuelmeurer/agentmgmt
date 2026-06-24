@@ -12,6 +12,6 @@
     "chokidar-cli": "^3.0.0",
     "concurrently": "^9.1.0",
     "js-yaml": "^4.1.0",
-    "wrangler": "^4.90.0"
+    "wrangler": "^4.103.0"
   }
 }
