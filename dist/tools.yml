@@ -36,7 +36,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 7000
+  github_stars: 7700
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -128,7 +128,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 5700
+  github_stars: 5800
   opensource: true
   os: [macos, web]
 
@@ -220,7 +220,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2600
+  github_stars: 2700
   opensource: true
   os: [macos, linux, web]
 
@@ -239,7 +239,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 9200
+  github_stars: 9300
   opensource: true
   os: [macos, web, android, ios]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 7200
+  github_stars: 7400
   opensource: true
   os: [macos, linux]
 
@@ -271,7 +271,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos, linux, windows]
 
