@@ -59,7 +59,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 1700
+  github_stars: 1800
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 7700
+  github_stars: 8000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 7400
+  github_stars: 7600
   opensource: true
   os: [macos, linux]
 
