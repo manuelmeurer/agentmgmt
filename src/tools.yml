@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 8400
+  github_stars: 8800
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -191,7 +191,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
   os: [macos, android, ios]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 7800
+  github_stars: 8100
   opensource: true
   os: [macos, linux]
 
