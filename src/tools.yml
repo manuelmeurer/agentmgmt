@@ -59,7 +59,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 1800
+  github_stars: 1900
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 8800
+  github_stars: 9300
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -180,7 +180,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -239,7 +239,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 9400
+  github_stars: 9500
   opensource: true
   os: [macos, web, android, ios]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 8100
+  github_stars: 8600
   opensource: true
   os: [macos, linux]
 
