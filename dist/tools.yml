@@ -36,7 +36,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1000
+  github_stars: 1100
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 9300
+  github_stars: 9900
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -239,7 +239,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 9500
+  github_stars: 9600
   opensource: true
   os: [macos, web, android, ios]
 
@@ -258,7 +258,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 8600
+  github_stars: 9200
   opensource: true
   os: [macos, linux]
 
