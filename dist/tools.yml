@@ -228,8 +228,9 @@
   url: https://opcode.sh/
   links:
     - https://x.com/getAsterisk
+    - https://github.com/winfunc/opcode
   price: Free
-  github_stars: 0
+  github_stars: 22000
   opensource: true
   os: [macos, linux]
 
