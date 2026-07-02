@@ -337,11 +337,11 @@
   url: https://www.warp.dev/terminal
   links:
     - https://x.com/warpdotdev
-    - https://github.com/warpdotdev
+    - https://github.com/warpdotdev/warp
     - https://www.youtube.com/@warpdotdev
     - https://go.warp.dev/join-preview
   price: Freemium
-  github_stars: 0
+  github_stars: 63000
   opensource: true
   os: [macos, linux, windows]
 
