@@ -139,7 +139,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5000
+  github_stars: 5100
   opensource: true
   os: [macos, linux, windows]
 
@@ -240,7 +240,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 9600
+  github_stars: 9700
   opensource: true
   os: [macos, web, android, ios]
 
@@ -259,7 +259,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 9800
+  github_stars: 10000
   opensource: true
   os: [macos, linux]
 
