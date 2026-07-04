@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -118,7 +118,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 23000
+  github_stars: 24000
   opensource: true
   os: [macos]
 
@@ -259,7 +259,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 10000
+  github_stars: 11000
   opensource: true
   os: [macos, linux]
 
