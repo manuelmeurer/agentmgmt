@@ -128,7 +128,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 6000
+  github_stars: 6100
   opensource: true
   os: [macos, web]
 
@@ -259,7 +259,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos, linux]
 
@@ -272,7 +272,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1000
+  github_stars: 1100
   opensource: true
   os: [macos, linux, windows]
 
