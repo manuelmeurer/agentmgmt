@@ -122,6 +122,15 @@
   opensource: true
   os: [macos]
 
+- name: Amux
+  url: https://amux.io/
+  links:
+    - https://github.com/mixpeek/amux
+  price: Freemium
+  github_stars: 300
+  opensource: true
+  os: [macos, linux, web, ios]
+
 - name: OpenChamber
   url: https://openchamber.dev/
   links:
