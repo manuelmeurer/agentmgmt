@@ -36,7 +36,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos]
 
@@ -70,7 +70,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 12000
+  github_stars: 13000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -85,7 +85,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 86000
+  github_stars: 87000
   opensource: true
   os: [macos, linux, windows]
 
@@ -229,7 +229,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2700
+  github_stars: 2800
   opensource: true
   os: [macos, linux, web]
 
@@ -249,7 +249,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 9700
+  github_stars: 9800
   opensource: true
   os: [macos, web, android, ios]
 
