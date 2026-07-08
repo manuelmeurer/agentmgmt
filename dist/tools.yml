@@ -9,6 +9,22 @@
   opensource: false
   os: [macos]
 
+- name: Polyscope
+  url: https://getpolyscope.com/
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, windows]
+
+- name: OpenScout
+  url: https://openscout.app/
+  links:
+    - https://github.com/arach/openscout
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, web, ios]
+
 - name: Superconductor
   url: https://super.engineering/
   links:
@@ -38,7 +54,7 @@
   price: Free
   github_stars: 1200
   opensource: true
-  os: [macos]
+  os: [macos, linux, windows]
 
 - name: Superset
   url: https://superset.sh/
@@ -292,6 +308,15 @@
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
   github_stars: 2000
+  opensource: true
+  os: [macos, linux, windows, web]
+
+- name: Agent Orchestrator
+  url: https://ao-agents.com/
+  links:
+    - https://github.com/AgentWrapper/agent-orchestrator
+  price: Free
+  github_stars: 8100
   opensource: true
   os: [macos, linux, windows, web]
 
