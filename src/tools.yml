@@ -225,10 +225,11 @@
   icon_url: https://avatars.githubusercontent.com/u/254029050?v=4
   links:
     - https://github.com/kdlbs/kandev
+    - https://discord.gg/gWdCPGcFCD
   price: Free
   github_stars: 400
   opensource: true
-  os: [macos, linux, windows]
+  os: [macos, linux, windows, web]
 
 - name: Kooky
   url: https://github.com/iAmCorey/kooky
