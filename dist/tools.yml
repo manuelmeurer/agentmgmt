@@ -153,7 +153,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 6200
+  github_stars: 6300
   opensource: true
   os: [macos, web]
 
@@ -297,7 +297,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos, linux, windows]
 
@@ -307,7 +307,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 2000
+  github_stars: 2100
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -352,7 +352,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 13000
+  github_stars: 14000
   opensource: true
   os: [macos, linux, windows]
 
@@ -392,6 +392,6 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 1900
+  github_stars: 2000
   opensource: true
   os: [macos]
