@@ -9,6 +9,16 @@
   opensource: false
   os: [macos]
 
+- name: atrium
+  url: https://getatrium.dev/
+  links:
+    - https://x.com/atrium_dev
+    - https://discord.gg/yEDfjsMHVj
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
 - name: Polyscope
   url: https://getpolyscope.com/
   price: Freemium
