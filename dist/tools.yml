@@ -86,7 +86,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 17000
+  github_stars: 18000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -307,7 +307,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos, linux, windows, web]
 
