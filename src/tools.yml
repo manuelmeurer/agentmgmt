@@ -62,7 +62,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos, linux, windows]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 18000
+  github_stars: 19000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -163,7 +163,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 6300
+  github_stars: 6400
   opensource: true
   os: [macos, web]
 
@@ -174,7 +174,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5100
+  github_stars: 5200
   opensource: true
   os: [macos, linux, windows]
 
@@ -215,7 +215,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos, linux, windows, web]
 
