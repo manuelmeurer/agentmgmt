@@ -405,3 +405,13 @@
   github_stars: 2000
   opensource: true
   os: [macos]
+
+- name: tmux-ide
+  url: https://www.tmux-ide.com/
+  links:
+    - https://github.com/wavyrai/tmux-ide
+    - https://x.com/prototyper_co
+  price: Free
+  github_stars: 500
+  opensource: true
+  os: [macos, linux]
