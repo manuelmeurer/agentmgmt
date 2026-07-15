@@ -415,3 +415,11 @@
   github_stars: 500
   opensource: true
   os: [macos, linux]
+
+- name: nodeterm
+  url: https://nodeterm.dev/
+  links:
+    - https://github.com/eneskirca/nodeterm
+  github_stars: 19
+  opensource: false
+  os: [macos]
