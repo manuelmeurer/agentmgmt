@@ -144,7 +144,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 24000
+  github_stars: 25000
   opensource: true
   os: [macos]
 
@@ -294,7 +294,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 16000
+  github_stars: 17000
   opensource: true
   os: [macos, linux]
 
@@ -326,7 +326,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8200
+  github_stars: 8300
   opensource: true
   os: [macos, linux, windows, web]
 
