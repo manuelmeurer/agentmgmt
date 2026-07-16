@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 19000
+  github_stars: 20000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -317,7 +317,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 2300
+  github_stars: 2400
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -420,6 +420,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 19
+  github_stars: 0
   opensource: false
   os: [macos]
