@@ -74,7 +74,7 @@
     - https://discord.gg/cZeD9WYcV7
     - https://github.com/superset-sh/superset
   price: Free
-  github_stars: 12000
+  github_stars: 13000
   opensource: true
   os: [macos]
 
@@ -85,7 +85,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 2100
+  github_stars: 2200
   opensource: true
   os: [macos]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 22000
+  github_stars: 23000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -226,7 +226,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos, android, ios]
 
@@ -246,7 +246,7 @@
   links:
     - https://github.com/iAmCorey/kooky
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
   os: [macos]
 
@@ -294,7 +294,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 18000
+  github_stars: 19000
   opensource: true
   os: [macos, linux]
 
