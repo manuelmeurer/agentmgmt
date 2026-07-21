@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 23000
+  github_stars: 24000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -163,7 +163,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 6600
+  github_stars: 6700
   opensource: true
   os: [macos, web]
 
@@ -255,7 +255,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2800
+  github_stars: 2900
   opensource: true
   os: [macos, linux, web]
 
@@ -385,7 +385,7 @@
     - https://www.youtube.com/@warpdotdev
     - https://go.warp.dev/join-preview
   price: Freemium
-  github_stars: 63000
+  github_stars: 64000
   opensource: true
   os: [macos, linux, windows]
 
