@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 24000
+  github_stars: 25000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -326,7 +326,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8400
+  github_stars: 8500
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -420,6 +420,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 0
+  github_stars: 100
   opensource: false
   os: [macos]
