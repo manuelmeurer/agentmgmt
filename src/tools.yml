@@ -52,7 +52,7 @@
     - https://discord.gg/gkdGsDYaKA
     - https://github.com/stagewise-io/stagewise
   price: Freemium
-  github_stars: 6700
+  github_stars: 6800
   opensource: true
   os: [macos, linux, windows]
 
@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 27000
+  github_stars: 28000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -174,7 +174,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5200
+  github_stars: 5300
   opensource: true
   os: [macos, linux, windows]
 
@@ -362,7 +362,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 14000
+  github_stars: 15000
   opensource: true
   os: [macos, linux, windows]
 
