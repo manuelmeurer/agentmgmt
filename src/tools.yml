@@ -298,6 +298,16 @@
   opensource: true
   os: [macos, linux]
 
+- name: Rabbitty
+  url: https://rabbitty.app
+  links:
+    - https://github.com/mauscoelho/rabbitty-app
+  details: Keyboard-driven worklane terminal for macOS that tracks status across multiple AI coding agents.
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
 - name: Nimbalyst
   url: https://nimbalyst.com/
   links:
