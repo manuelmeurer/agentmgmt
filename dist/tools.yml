@@ -96,7 +96,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 29000
+  github_stars: 30000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -192,7 +192,7 @@
   links:
     - https://github.com/coollabsio/jean
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos, windows, linux]
 
