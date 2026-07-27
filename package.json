@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "npm run build && concurrently -k -n build,wrangler -c blue,magenta \"chokidar 'src/**/*' -c 'npm run build'\" \"wrangler dev\"",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "bin/deploy",
     "update-stars": "node scripts/update-stars.mjs"
   },
   "devDependencies": {
