@@ -1,9 +1,15 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "agentmgmt",
   "compatibility_date": "2025-11-05",
   "workers_dev": false,
   "preview_urls": false,
+  "placement": {
+    "mode": "smart"
+  },
+  "observability": {
+    "enabled": false
+  },
   "routes": [
     {
       "pattern": "agentmgmt.dev",
