@@ -423,3 +423,13 @@
   github_stars: 100
   opensource: false
   os: [macos]
+
+- name: Sidequest
+  url: https://zieka.github.io/get-sidequest/
+  links:
+    - https://github.com/zieka/get-sidequest
+  details: Kanban board to run multiple Claude Code sessions in parallel, each in its own git worktree, with a supervisory agent and embedded tmux terminal.
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, linux]
