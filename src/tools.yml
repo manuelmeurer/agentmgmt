@@ -347,6 +347,57 @@
   opensource: false
   os: [macos, linux, windows]
 
+- name: Mux
+  url: https://mux.coder.com/
+  links:
+    - https://github.com/coder/mux
+  details: Desktop app for running coding agents in parallel, each in an isolated workspace.
+  price: Free
+  github_stars: 1900
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Vibe Kanban
+  url: https://www.vibekanban.com/
+  links:
+    - https://github.com/BloopAI/vibe-kanban
+  details: Kanban board for running coding agents in parallel, each in an automatically created git worktree.
+  price: Freemium
+  github_stars: 28000
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Happy
+  url: https://happy.engineering/
+  links:
+    - https://discord.gg/fX9WBAhyfD
+    - https://github.com/slopus/happy
+  details: Mobile and web client for driving Claude Code and Codex sessions remotely, end-to-end encrypted.
+  price: Free
+  github_stars: 23000
+  opensource: true
+  os: [macos, linux, web, android, ios]
+
+- name: dmux
+  url: https://dmux.ai/
+  links:
+    - https://github.com/standardagents/dmux
+  details: Runs coding agents in parallel tmux panes, each in its own git worktree and branch.
+  price: Free
+  github_stars: 1700
+  opensource: true
+  os: [macos, linux]
+
+- name: HAPI
+  url: https://hapi.run/
+  links:
+    - https://github.com/tiann/hapi
+  details: Local-first web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
+  price: Free
+  github_stars: 4700
+  opensource: true
+  os: [macos, linux, web]
+
 - name: Devin
   url: https://devin.ai/
   links:
