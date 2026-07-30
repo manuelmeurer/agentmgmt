@@ -347,6 +347,16 @@
   opensource: false
   os: [macos, linux, windows]
 
+- name: Mux
+  url: https://mux.coder.com/
+  links:
+    - https://github.com/coder/mux
+  details: Desktop app for running coding agents in parallel, each in an isolated workspace.
+  price: Free
+  github_stars: 1900
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: Devin
   url: https://devin.ai/
   links:
