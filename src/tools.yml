@@ -378,6 +378,16 @@
   opensource: true
   os: [macos, linux, web, android, ios]
 
+- name: dmux
+  url: https://dmux.ai/
+  links:
+    - https://github.com/standardagents/dmux
+  details: Runs coding agents in parallel tmux panes, each in its own git worktree and branch.
+  price: Free
+  github_stars: 1700
+  opensource: true
+  os: [macos, linux]
+
 - name: Devin
   url: https://devin.ai/
   links:
