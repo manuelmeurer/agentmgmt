@@ -19,6 +19,16 @@
   opensource: false
   os: [macos]
 
+- name: pi-vis
+  url: https://rsingapuri.github.io/pi-vis/
+  links:
+    - https://github.com/rsingapuri/pi-vis
+  details: Desktop GUI for the Pi coding agent, with diff review, conversation trees, and per-session git worktrees.
+  price: Free
+  github_stars: 7
+  opensource: true
+  os: [macos]
+
 - name: Polyscope
   url: https://getpolyscope.com/
   price: Freemium
