@@ -367,6 +367,17 @@
   opensource: true
   os: [macos, linux, windows]
 
+- name: Happy
+  url: https://happy.engineering/
+  links:
+    - https://discord.gg/fX9WBAhyfD
+    - https://github.com/slopus/happy
+  details: Mobile and web client for driving Claude Code and Codex sessions remotely, end-to-end encrypted.
+  price: Free
+  github_stars: 23000
+  opensource: true
+  os: [macos, linux, web, android, ios]
+
 - name: Devin
   url: https://devin.ai/
   links:
