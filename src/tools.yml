@@ -357,6 +357,16 @@
   opensource: true
   os: [macos, linux, windows]
 
+- name: Vibe Kanban
+  url: https://www.vibekanban.com/
+  links:
+    - https://github.com/BloopAI/vibe-kanban
+  details: Kanban board for running coding agents in parallel, each in an automatically created git worktree.
+  price: Freemium
+  github_stars: 28000
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: Devin
   url: https://devin.ai/
   links:
