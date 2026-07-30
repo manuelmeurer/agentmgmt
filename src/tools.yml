@@ -388,6 +388,16 @@
   opensource: true
   os: [macos, linux]
 
+- name: HAPI
+  url: https://hapi.run/
+  links:
+    - https://github.com/tiann/hapi
+  details: Local-first web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
+  price: Free
+  github_stars: 4700
+  opensource: true
+  os: [macos, linux, web]
+
 - name: Devin
   url: https://devin.ai/
   links:
