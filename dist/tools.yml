@@ -1,3 +1,13 @@
+- name: den
+  url: https://useden.ai/
+  links:
+    - https://x.com/oyabun
+    - https://github.com/jalonsogo/den
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, windows]
+
 - name: Conductor
   url: https://www.conductor.build/
   links:
