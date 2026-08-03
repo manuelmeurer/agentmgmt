@@ -106,7 +106,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 35000
+  github_stars: 36000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -154,7 +154,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 25000
+  github_stars: 26000
   opensource: true
   os: [macos]
 
@@ -225,7 +225,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 1000
+  github_stars: 1100
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -304,7 +304,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 23000
+  github_stars: 24000
   opensource: true
   os: [macos, linux]
 
@@ -336,7 +336,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8700
+  github_stars: 8800
   opensource: true
   os: [macos, linux, windows, web]
 
