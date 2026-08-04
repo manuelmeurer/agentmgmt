@@ -72,7 +72,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1400
+  github_stars: 1500
   opensource: true
   os: [macos, linux, windows]
 
@@ -106,7 +106,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 36000
+  github_stars: 37000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -173,7 +173,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 7100
+  github_stars: 7200
   opensource: true
   os: [macos, web]
 
@@ -265,7 +265,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2900
+  github_stars: 3000
   opensource: true
   os: [macos, linux, web]
 
@@ -372,7 +372,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 16000
+  github_stars: 17000
   opensource: true
   os: [macos, linux, windows]
 
