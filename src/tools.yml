@@ -95,7 +95,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos]
 
@@ -106,7 +106,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 39000
+  github_stars: 40000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -173,7 +173,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 7500
+  github_stars: 7700
   opensource: true
   os: [macos, web]
 
@@ -304,7 +304,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 25000
+  github_stars: 26000
   opensource: true
   os: [macos, linux]
 
@@ -327,7 +327,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 2400
+  github_stars: 2500
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -336,7 +336,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8800
+  github_stars: 8900
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -412,7 +412,7 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 2100
+  github_stars: 2200
   opensource: true
   os: [macos]
 
