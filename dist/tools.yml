@@ -173,7 +173,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 7700
+  github_stars: 7800
   opensource: true
   os: [macos, web]
 
@@ -336,7 +336,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8900
+  github_stars: 9000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -430,6 +430,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 100
+  github_stars: 300
   opensource: false
   os: [macos]
