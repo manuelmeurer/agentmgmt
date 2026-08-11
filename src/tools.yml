@@ -1,3 +1,10 @@
+- name: Xirp
+  url: https://xirp.spotify.com/
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
 - name: den
   url: https://useden.ai/
   links:
