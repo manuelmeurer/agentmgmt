@@ -106,7 +106,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 41000
+  github_stars: 42000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -173,7 +173,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 8000
+  github_stars: 8200
   opensource: true
   os: [macos, web]
 
@@ -317,7 +317,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1400
+  github_stars: 1500
   opensource: true
   os: [macos, linux, windows]
 
@@ -336,7 +336,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 9100
+  github_stars: 9200
   opensource: true
   os: [macos, linux, windows, web]
 
