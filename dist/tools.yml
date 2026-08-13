@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 43000
+  github_stars: 44000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -128,7 +128,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 88000
+  github_stars: 89000
   opensource: true
   os: [macos, linux, windows]
 
@@ -180,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 8500
+  github_stars: 8600
   opensource: true
   os: [macos, web]
 
@@ -272,7 +272,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3000
+  github_stars: 3100
   opensource: true
   os: [macos, linux, web]
 
@@ -292,7 +292,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 13000
+  github_stars: 14000
   opensource: true
   os: [macos, web, android, ios]
 
@@ -343,7 +343,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 9400
+  github_stars: 9500
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -437,6 +437,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 500
+  github_stars: 600
   opensource: false
   os: [macos]
