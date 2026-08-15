@@ -79,7 +79,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1500
+  github_stars: 1600
   opensource: true
   os: [macos, linux, windows]
 
@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 45000
+  github_stars: 46000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -170,7 +170,7 @@
   links:
     - https://github.com/mixpeek/amux
   price: Freemium
-  github_stars: 300
+  github_stars: 400
   opensource: true
   os: [macos, linux, web, ios]
 
@@ -180,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 8700
+  github_stars: 8800
   opensource: true
   os: [macos, web]
 
