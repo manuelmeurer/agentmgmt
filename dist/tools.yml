@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 48000
+  github_stars: 49000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -437,6 +437,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 800
+  github_stars: 900
   opensource: false
   os: [macos]
