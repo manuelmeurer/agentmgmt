@@ -180,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 8900
+  github_stars: 9000
   opensource: true
   os: [macos, web]
 
@@ -311,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 30000
+  github_stars: 31000
   opensource: true
   os: [macos, linux]
 
@@ -379,7 +379,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 19000
+  github_stars: 20000
   opensource: true
   os: [macos, linux, windows]
 
@@ -437,6 +437,6 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 900
+  github_stars: 1000
   opensource: false
   os: [macos]
