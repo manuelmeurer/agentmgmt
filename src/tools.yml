@@ -232,7 +232,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -311,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 31000
+  github_stars: 32000
   opensource: true
   os: [macos, linux]
 
@@ -343,7 +343,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 9700
+  github_stars: 9900
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -437,7 +437,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 1000
+  github_stars: 1100
   opensource: false
   os: [macos]
 
