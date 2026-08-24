@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 51000
+  github_stars: 52000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -324,7 +324,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1500
+  github_stars: 1600
   opensource: true
   os: [macos, linux, windows]
 
