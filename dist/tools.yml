@@ -450,3 +450,13 @@
   github_stars: 0
   opensource: false
   os: [macos, linux, web]
+
+- name: Luvus
+  url: https://luvus.dev/
+  links:
+    - https://x.com/luvusdev
+    - https://github.com/RizRiyz/luvus
+  price: Free
+  github_stars: 600
+  opensource: true
+  os: [macos, linux, windows]
