@@ -180,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 9400
+  github_stars: 9500
   opensource: true
   os: [macos, web]
 
@@ -209,7 +209,7 @@
   links:
     - https://github.com/coollabsio/jean
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos, windows, linux]
 
@@ -311,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 34000
+  github_stars: 35000
   opensource: true
   os: [macos, linux]
 
@@ -457,6 +457,6 @@
     - https://x.com/luvusdev
     - https://github.com/RizRiyz/luvus
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos, linux, windows]
