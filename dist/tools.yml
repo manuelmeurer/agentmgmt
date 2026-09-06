@@ -79,7 +79,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1600
+  github_stars: 1700
   opensource: true
   os: [macos, linux, windows]
 
@@ -311,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 35000
+  github_stars: 36000
   opensource: true
   os: [macos, linux]
 
@@ -324,7 +324,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1600
+  github_stars: 1700
   opensource: true
   os: [macos, linux, windows]
 
@@ -437,7 +437,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 1700
+  github_stars: 1800
   opensource: false
   os: [macos]
 
