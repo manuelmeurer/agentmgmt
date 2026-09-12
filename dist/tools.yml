@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 66000
+  github_stars: 67000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -343,7 +343,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos, linux, windows, web]
 
