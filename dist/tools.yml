@@ -1,3 +1,14 @@
+- name: AgentsDock
+  url: https://agentsdock.net/
+  links:
+    - https://github.com/ZhengyiLuo/AgentsDock
+    - https://discord.gg/ZGDrhEWqPt
+  details: Desktop and mobile workspace for Claude Code, Codex, and Cursor, with remote servers, file review, and persistent terminals. Source is public but has no project-wide license.
+  price: Free
+  github_stars: 22
+  opensource: false
+  os: [macos, linux, windows, android, ios]
+
 - name: Xirp
   url: https://xirp.spotify.com/
   price: Free
