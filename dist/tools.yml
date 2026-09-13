@@ -460,3 +460,13 @@
   github_stars: 800
   opensource: true
   os: [macos, linux, windows]
+
+- name: dot-agent-deck
+  url: https://agent-deck.devopstoolkit.ai/
+  links:
+    - https://github.com/vfarcic/dot-agent-deck
+    - https://youtube.com/@devopstoolkit
+  price: Free
+  github_stars: 106
+  opensource: true
+  os: [macos, linux]
