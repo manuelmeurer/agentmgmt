@@ -79,7 +79,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1700
+  github_stars: 1800
   opensource: true
   os: [macos, linux, windows]
 
@@ -102,7 +102,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 2300
+  github_stars: 2400
   opensource: true
   os: [macos]
 
@@ -113,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 63000
+  github_stars: 67000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -180,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 9600
+  github_stars: 9800
   opensource: true
   os: [macos, web]
 
@@ -191,7 +191,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5600
+  github_stars: 5700
   opensource: true
   os: [macos, linux, windows]
 
@@ -292,7 +292,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 16000
+  github_stars: 17000
   opensource: true
   os: [macos, web, android, ios]
 
@@ -311,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 36000
+  github_stars: 38000
   opensource: true
   os: [macos, linux]
 
@@ -343,7 +343,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -379,7 +379,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 22000
+  github_stars: 23000
   opensource: true
   os: [macos, linux, windows]
 
@@ -457,6 +457,16 @@
     - https://x.com/luvusdev
     - https://github.com/RizRiyz/luvus
   price: Free
-  github_stars: 700
+  github_stars: 800
   opensource: true
   os: [macos, linux, windows]
+
+- name: Sidecar
+  url: https://sidecar.haplab.com/
+  links:
+    - https://github.com/marcus/sidecar
+  details: Shell for AI coding agents with diffs, file trees, conversation history, and task management.
+  price: Free
+  github_stars: 1100
+  opensource: true
+  os: [macos, linux]

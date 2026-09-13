@@ -8,6 +8,4 @@ gemfile do
   gem "baseline", github: "m4444l/baseline", branch: "main", require: false
 end
 
-path = Bundler.rubygems.find_name("baseline").first.full_gem_path
-
-`#{path}/bin/deploy`
+exec "#{Bundler.rubygems.find_name("baseline").first.full_gem_path}/bin/deploy", *ARGV
