@@ -460,3 +460,13 @@
   github_stars: 800
   opensource: true
   os: [macos, linux, windows]
+
+- name: Sidecar
+  url: https://sidecar.haplab.com/
+  links:
+    - https://github.com/marcus/sidecar
+  details: Shell for AI coding agents with diffs, file trees, conversation history, and task management.
+  price: Free
+  github_stars: 1100
+  opensource: true
+  os: [macos, linux]
