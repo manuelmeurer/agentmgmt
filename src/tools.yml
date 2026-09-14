@@ -5,7 +5,7 @@
     - https://discord.gg/ZGDrhEWqPt
   details: Desktop and mobile workspace for Claude Code, Codex, and Cursor, with remote servers, file review, and persistent terminals. Source is public but has no project-wide license.
   price: Free
-  github_stars: 22
+  github_stars: 0
   opensource: false
   os: [macos, linux, windows, android, ios]
 
@@ -134,7 +134,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 67000
+  github_stars: 68000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -191,7 +191,7 @@
   links:
     - https://github.com/mixpeek/amux
   price: Freemium
-  github_stars: 400
+  github_stars: 500
   opensource: true
   os: [macos, linux, web, ios]
 
