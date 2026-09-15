@@ -134,7 +134,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 68000
+  github_stars: 69000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -201,7 +201,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 9800
+  github_stars: 9900
   opensource: true
   os: [macos, web]
 
@@ -333,7 +333,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 38000
+  github_stars: 39000
   opensource: true
   os: [macos, linux]
 
