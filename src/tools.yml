@@ -134,7 +134,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 69000
+  github_stars: 70000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -212,7 +212,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5700
+  github_stars: 5800
   opensource: true
   os: [macos, linux, windows]
 
@@ -294,7 +294,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3200
+  github_stars: 3300
   opensource: true
   os: [macos, linux, web]
 
@@ -520,7 +520,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 1800
+  github_stars: 1900
   opensource: false
   os: [macos]
 
