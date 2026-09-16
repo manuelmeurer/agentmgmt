@@ -48,7 +48,7 @@ Configuration: [`wrangler.jsonc`](wrangler.jsonc).
 
 ## Daily star refresh
 
-[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's GitHub URL in `links`, rebuilds `dist/`, and opens an auto-merging PR via [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request). The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
+[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's GitHub URL in `links`, rebuilds `dist/`, commits changes directly to `main`, and syncs the `deploy` branch with `main`. Unchanged runs skip the commit. The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
 
 ## License & intent
 

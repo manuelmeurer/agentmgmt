@@ -7,7 +7,10 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: update-github-stars
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -15,6 +18,8 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v6
+        with:
+          ref: main
 
       - uses: actions/setup-node@v6
 
@@ -26,27 +31,18 @@ jobs:
 
       - run: npm run build
 
-      - name: Create pull request if changed
-        id: create-pr
-        uses: peter-evans/create-pull-request@v8
-        with:
-          add-paths: |
-            src/tools.yml
-            dist
-          branch: update-github-stars
-          commit-message: "chore: refresh GitHub star counts"
-          title: "Refresh GitHub star counts"
-          body: "Automated daily update of `github_stars` in `src/tools.yml` and rebuilt `dist/`."
-
-      - name: Merge pull request
-        if: steps.create-pr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_URL: ${{ steps.create-pr.outputs.pull-request-url }}
-        run: gh pr merge --squash "$PR_URL"
+      - name: Commit changes to main
+        run: |
+          git add src/tools.yml dist
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh GitHub star counts"
+          git push origin HEAD:main
 
       - name: Sync deploy branch with main
-        if: steps.create-pr.outputs.pull-request-number
         run: |
           git fetch origin main
           git push origin origin/main:deploy --force
