@@ -5,7 +5,7 @@
     - https://discord.gg/ZGDrhEWqPt
   details: Desktop and mobile workspace for Claude Code, Codex, and Cursor, with remote servers, file review, and persistent terminals. Source is public but has no project-wide license.
   price: Free
-  github_stars: 0
+  github_stars: 100
   opensource: false
   os: [macos, linux, windows, android, ios]
 
@@ -285,7 +285,7 @@
   links:
     - https://github.com/iAmCorey/kooky
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos]
 
@@ -550,7 +550,7 @@
     - https://x.com/luvusdev
     - https://github.com/RizRiyz/luvus
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos, linux, windows]
 
