@@ -134,7 +134,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 71000
+  github_stars: 72000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -149,7 +149,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 90000
+  github_stars: 91000
   opensource: true
   os: [macos, linux, windows]
 
