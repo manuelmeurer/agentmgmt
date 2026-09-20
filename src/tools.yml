@@ -316,7 +316,7 @@
   price: Free
   github_stars: 18000
   opensource: true
-  os: [macos, web, android, ios, linux, windows]
+  os: [macos, web, android, ios, windows]
 
 - name: Shep
   url: https://www.shep.tools/
