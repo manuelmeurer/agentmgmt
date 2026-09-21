@@ -100,7 +100,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1800
+  github_stars: 1900
   opensource: true
   os: [macos, linux, windows]
 
@@ -134,7 +134,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 73000
+  github_stars: 74000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -512,7 +512,7 @@
     - https://github.com/wavyrai/tmux-ide
     - https://x.com/prototyper_co
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
   os: [macos, linux]
 
