@@ -1,3 +1,13 @@
+- name: Zeron
+  url: https://zeron.sh/
+  links:
+    - https://github.com/zeronsh/zeron
+  details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
+  price:
+  github_stars: 0
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: AgentsDock
   url: https://agentsdock.net/
   links:
