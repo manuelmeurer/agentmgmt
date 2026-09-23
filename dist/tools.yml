@@ -1,3 +1,13 @@
+- name: Podium
+  url: https://podium.do/
+  links:
+    - https://github.com/madeinorbit/podium
+  details: Coding-agent workspace where agents manage shared issues, dependencies, and delegation through conversation.
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, linux, web]
+
 - name: Zeron
   url: https://zeron.sh/
   links:
