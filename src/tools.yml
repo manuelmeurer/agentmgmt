@@ -197,6 +197,14 @@
   opensource: false
   os: [macos, windows, linux]
 
+- name: JetBrains Air
+  table: extra
+  url: https://www.jetbrains.com/air/
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, web]
+
 - name: cmux
   url: https://cmux.com/
   links:
