@@ -1,3 +1,13 @@
+- name: Amp
+  url: https://ampcode.com/
+  links:
+    - https://x.com/ampcode
+    - https://www.youtube.com/@Sourcegraph/videos
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, ios]
+
 - name: Podium
   url: https://podium.do/
   links:
