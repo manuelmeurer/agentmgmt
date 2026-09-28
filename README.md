@@ -17,7 +17,7 @@ Edit [`src/tools.yml`](src/tools.yml) and open a PR. Each entry looks like:
   price: Free | Freemium | Paid (optional)
   github_stars: 0              # populated by the daily workflow
   opensource: true             # or false
-  os: [macos, linux, windows, web]   # any subset; use "web" for cloud-only tools
+  os: [macos, linux, windows, web, android, ios]   # any non-empty subset; use "web" for cloud-only tools
 ```
 
 Fields with no value can be left blank (e.g. `details:`).
@@ -25,7 +25,7 @@ Fields with no value can be left blank (e.g. `details:`).
 ## Stack
 
 - Static HTML / JS / Tailwind (CDN), served by Cloudflare Workers static assets.
-- Source lives under [`src/`](src/); [`scripts/build.mjs`](scripts/build.mjs) generates [`dist/`](dist/) (committed). Data source is [`src/tools.yml`](src/tools.yml), parsed at build time via [js-yaml](https://github.com/nodeca/js-yaml).
+- Source lives under [`src/`](src/); [`scripts/build.mjs`](scripts/build.mjs) generates `dist/` (gitignored). Cloudflare Workers Builds runs `npm run build` before each deploy. The build fails if an entry in `src/tools.yml` is invalid (unknown or missing fields, bad URLs, unsupported `os` or `price` values, duplicate names). Data source is [`src/tools.yml`](src/tools.yml), parsed at build time via [js-yaml](https://github.com/nodeca/js-yaml).
 - Rows are pre-rendered into `dist/index.html` so the page has content before JS runs. The shared renderer is [`src/render-tools.mjs`](src/render-tools.mjs); the browser imports it for live re-sorting using tools embedded as JSON.
 - Tool favicons are fetched from DuckDuckGo's icon proxy.
 - Last-updated timestamp comes from `git log` on `src/tools.yml` at build time.
@@ -48,7 +48,7 @@ Configuration: [`wrangler.jsonc`](wrangler.jsonc).
 
 ## Daily star refresh
 
-[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's GitHub URL in `links`, rebuilds `dist/`, commits changes directly to `main`, and syncs the `deploy` branch with `main`. Unchanged runs skip the commit. The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
+[`.github/workflows/update-stars.yml`](.github/workflows/update-stars.yml) runs once a day, calls the GitHub API for each entry's GitHub URL in `links`, validates the result with a build, commits `src/tools.yml` directly to `main`, and syncs the `deploy` branch with `main`. Unchanged runs skip the commit. The script is at [`scripts/update-stars.mjs`](scripts/update-stars.mjs).
 
 ## License & intent
 
