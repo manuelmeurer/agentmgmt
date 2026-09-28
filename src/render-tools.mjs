@@ -213,7 +213,7 @@ const externalLinkSvg = `<svg class="h-3.5 w-3.5 opacity-60" aria-hidden="true">
 
 const githubIconSvg = `<svg class="h-4 w-4" aria-hidden="true"><use href="#icon-github"/></svg>`;
 
-const PLATFORMS = [
+export const PLATFORMS = [
   { value: "web", label: "Web" },
   { value: "macos", label: "macOS" },
   { value: "windows", label: "Windows" },
