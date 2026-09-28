@@ -16,7 +16,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos, linux, windows]
 
@@ -156,7 +156,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 79000
+  github_stars: 80000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -234,7 +234,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5800
+  github_stars: 5900
   opensource: true
   os: [macos, linux, windows]
 
