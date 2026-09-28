@@ -16,7 +16,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos, linux, windows]
 
@@ -156,7 +156,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 77000
+  github_stars: 80000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -223,7 +223,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 10000
+  github_stars: 11000
   opensource: true
   os: [macos, web]
 
@@ -234,7 +234,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5800
+  github_stars: 5900
   opensource: true
   os: [macos, linux, windows]
 
@@ -297,7 +297,7 @@
     - https://github.com/kdlbs/kandev
     - https://discord.gg/gWdCPGcFCD
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -336,7 +336,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 18000
+  github_stars: 19000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -355,7 +355,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 40000
+  github_stars: 41000
   opensource: true
   os: [macos, linux]
 
@@ -484,7 +484,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 23000
+  github_stars: 24000
   opensource: true
   os: [macos, linux, windows]
 
