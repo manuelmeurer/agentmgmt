@@ -26,7 +26,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2300
+  github_stars: 2400
   opensource: true
   os: [macos, linux, windows]
 
@@ -166,7 +166,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 80000
+  github_stars: 81000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -296,7 +296,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 800
+  github_stars: 900
   opensource: true
   os: [macos, android, ios]
 
@@ -407,7 +407,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 12000
+  github_stars: 13000
   opensource: true
   os: [macos, linux, windows, web]
 
