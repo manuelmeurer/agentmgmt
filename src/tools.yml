@@ -26,7 +26,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2400
+  github_stars: 2500
   opensource: true
   os: [macos, linux, windows]
 
@@ -166,7 +166,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 81000
+  github_stars: 82000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -222,7 +222,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 27000
+  github_stars: 28000
   opensource: true
   os: [macos]
 
@@ -293,7 +293,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -373,7 +373,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 41000
+  github_stars: 42000
   opensource: true
   os: [macos, linux]
 
