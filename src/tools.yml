@@ -461,13 +461,15 @@
   os: [macos, linux, windows, web]
 
 - name: Agent Orchestrator
-  url: https://ao-agents.com/
+  url: https://orchestrator.inc/
   links:
-    - https://github.com/AgentWrapper/agent-orchestrator
+    - https://github.com/Untrivial-ai/agent-orchestrator
+    - https://x.com/ao_build
+    - https://discord.com/invite/UZv7JjxbwG
   price: Free
   github_stars: 13000
   opensource: true
-  os: [macos, linux, windows, web]
+  os: [macos, linux, windows, android, ios]
 
 - name: Codex app
   url: https://developers.openai.com/codex/app
