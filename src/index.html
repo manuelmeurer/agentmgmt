@@ -149,30 +149,6 @@
                 />
               </svg>
             </div>
-            <div class="relative">
-              <select
-                id="sort"
-                aria-label="Sort tools"
-                class="appearance-none rounded-md border border-neutral-800 bg-neutral-900 py-2 pl-3 pr-9 text-sm text-neutral-200 transition hover:border-neutral-700 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
-              >
-                <option value="name-asc" selected>Name (A → Z)</option>
-                <option value="name-desc">Name (Z → A)</option>
-                <option value="stars-desc">GitHub stars (high → low)</option>
-                <option value="stars-asc">GitHub stars (low → high)</option>
-              </select>
-              <svg
-                class="pointer-events-none absolute right-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.06l3.71-3.83a.75.75 0 1 1 1.08 1.04l-4.25 4.39a.75.75 0 0 1-1.08 0L5.21 8.27a.75.75 0 0 1 .02-1.06z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
           </div>
           <a
             href="https://github.com/manuelmeurer/agentmgmt/edit/main/src/tools.yml"
@@ -205,21 +181,27 @@
               class="border-b border-neutral-800 bg-neutral-900/60 text-xs uppercase tracking-wider text-neutral-500"
             >
               <tr>
-                <th scope="col" class="px-6 py-4 font-medium">Name</th>
+                <th scope="col" class="px-6 py-4 font-medium text-neutral-200" data-sort="name" aria-sort="ascending">
+                  <button type="button" class="sort-button inline-flex items-center gap-1 uppercase tracking-wider transition hover:text-neutral-200">
+                    Name<span class="sort-indicator inline-block w-3 text-left" aria-hidden="true">↑</span>
+                  </button>
+                </th>
                 <th scope="col" class="px-6 py-4 font-medium">Works on</th>
                 <th scope="col" class="px-6 py-4 font-medium">Links</th>
-                <th scope="col" class="px-6 py-4 font-medium">Price</th>
-                <th
-                  scope="col"
-                  class="px-6 py-4 text-right font-medium"
-                >
-                  GitHub stars
+                <th scope="col" class="px-6 py-4 font-medium" data-sort="price">
+                  <button type="button" class="sort-button inline-flex items-center gap-1 uppercase tracking-wider transition hover:text-neutral-200">
+                    Price<span class="sort-indicator inline-block w-3 text-left" aria-hidden="true"></span>
+                  </button>
                 </th>
-                <th
-                  scope="col"
-                  class="px-6 py-4 text-right font-medium"
-                >
-                  Open source
+                <th scope="col" class="px-6 py-4 font-medium text-right" data-sort="stars">
+                  <button type="button" class="sort-button inline-flex items-center gap-1 uppercase tracking-wider transition hover:text-neutral-200">
+                    GitHub stars<span class="sort-indicator inline-block w-3 text-left" aria-hidden="true"></span>
+                  </button>
+                </th>
+                <th scope="col" class="px-6 py-4 font-medium text-right" data-sort="opensource">
+                  <button type="button" class="sort-button inline-flex items-center gap-1 uppercase tracking-wider transition hover:text-neutral-200">
+                    Open source<span class="sort-indicator inline-block w-3 text-left" aria-hidden="true"></span>
+                  </button>
                 </th>
               </tr>
             </thead>

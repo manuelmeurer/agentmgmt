@@ -6,6 +6,7 @@ import { dirname, join } from "node:path";
 import yaml from "js-yaml";
 import {
   PLATFORMS,
+  PRICES,
   getExtraTools,
   getPrimaryTools,
   renderOsFilterOptions,
@@ -15,7 +16,6 @@ import {
 
 const REQUIRED_KEYS = ["name", "url", "github_stars", "opensource", "os"];
 const OPTIONAL_KEYS = ["icon_url", "links", "details", "price", "table"];
-const PRICES = ["Free", "Freemium", "Paid"];
 const OS_VALUES = PLATFORMS.map(({ value }) => value);
 
 const exec = promisify(execFile);
@@ -40,7 +40,7 @@ if (errors.length) {
 const primaryTools = getPrimaryTools(tools);
 const extraTools = getExtraTools(tools);
 
-const rows = renderToolRows(primaryTools, "name-asc");
+const rows = renderToolRows(primaryTools);
 const extraRows = renderStaticToolRows(extraTools);
 const osFilterOptions = renderOsFilterOptions(primaryTools);
 const jsonTag = `<script type="application/json" id="tools-data">${JSON.stringify(tools).replace(/</g, "\\u003c")}</script>`;

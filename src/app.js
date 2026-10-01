@@ -1,11 +1,12 @@
 import {
+  SORTS,
   getPrimaryTools,
   renderOsFilterOptions,
   renderToolRows,
 } from "/render-tools.mjs";
 
 const tbody = document.getElementById("ide-rows");
-const sortSelect = document.getElementById("sort");
+const sortHeaders = [...document.querySelectorAll("th[data-sort]")];
 const osSelect = document.getElementById("os-filter");
 const dataScript = document.getElementById("tools-data");
 
@@ -22,10 +23,40 @@ const primaryTools = getPrimaryTools(tools);
 if (primaryTools.length) {
   osSelect.innerHTML = renderOsFilterOptions(primaryTools, osSelect.value);
 
+  let sortKey = "name";
+  let direction = "asc";
+
   const renderRows = () => {
-    tbody.innerHTML = renderToolRows(primaryTools, sortSelect.value, osSelect.value);
+    tbody.innerHTML = renderToolRows(primaryTools, sortKey, direction, osSelect.value);
   };
 
-  sortSelect.addEventListener("change", renderRows);
+  const renderSortHeaders = () => {
+    sortHeaders.forEach(header => {
+      const active = header.dataset.sort === sortKey;
+      const indicator = header.querySelector(".sort-indicator");
+      if (active)
+        header.setAttribute("aria-sort", direction === "asc" ? "ascending" : "descending");
+      else
+        header.removeAttribute("aria-sort");
+      header.classList.toggle("text-neutral-200", active);
+      indicator.textContent = active ? (direction === "asc" ? "↑" : "↓") : "";
+    });
+  };
+
+  sortHeaders.forEach(header => {
+    header.querySelector("button").addEventListener("click", () => {
+      const key = header.dataset.sort;
+      if (key === sortKey)
+        direction = direction === "asc" ? "desc" : "asc";
+      else {
+        sortKey = key;
+        direction = SORTS[key].defaultDirection;
+      }
+      renderSortHeaders();
+      renderRows();
+    });
+  });
+
   osSelect.addEventListener("change", renderRows);
+  renderSortHeaders();
 }

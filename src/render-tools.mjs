@@ -1,18 +1,32 @@
-export const comparators = {
-  "stars-desc": (a, b) =>
-    repoFirst(a, b) ||
-    (b.github_stars || 0) - (a.github_stars || 0) ||
-    byName(a, b),
-  "stars-asc": (a, b) =>
-    repoFirst(a, b) ||
-    (a.github_stars || 0) - (b.github_stars || 0) ||
-    byName(a, b),
-  "name-asc": byName,
-  "name-desc": (a, b) => b.name.localeCompare(a.name),
+// `present` keeps tools without a value at the bottom regardless of direction.
+export const SORTS = {
+  name: {
+    compare: byName,
+    defaultDirection: "asc",
+  },
+  price: {
+    compare: (a, b) => priceRank(a) - priceRank(b),
+    present: tool => !!tool.price,
+    defaultDirection: "asc",
+  },
+  stars: {
+    compare: (a, b) => (a.github_stars || 0) - (b.github_stars || 0),
+    present: tool => !!getGithubUrl(tool),
+    defaultDirection: "desc",
+  },
+  opensource: {
+    compare: (a, b) => !!b.opensource - !!a.opensource,
+    defaultDirection: "asc",
+  },
 };
 
-export function renderToolRows(tools, sortKey, osFilter = "all") {
-  const comparator = comparators[sortKey] || comparators["name-asc"];
+export function renderToolRows(tools, sortKey = "name", direction = "asc", osFilter = "all") {
+  const sort = SORTS[sortKey] || SORTS.name;
+  const sign = direction === "desc" ? -1 : 1;
+  const comparator = (a, b) =>
+    (sort.present ? !!sort.present(b) - !!sort.present(a) : 0) ||
+    sign * sort.compare(a, b) ||
+    byName(a, b);
   const filteredTools = osFilter === "all"
     ? tools
     : tools.filter(tool => Array.isArray(tool.os) && tool.os.includes(osFilter));
@@ -148,8 +162,9 @@ function byName(a, b) {
   return a.name.localeCompare(b.name);
 }
 
-function repoFirst(a, b) {
-  return !!getGithubUrl(b) - !!getGithubUrl(a);
+function priceRank(tool) {
+  const index = PRICES.indexOf(tool.price);
+  return index === -1 ? PRICES.length : index;
 }
 
 function formatStars(n) {
@@ -212,6 +227,8 @@ function escapeAttr(value) {
 const externalLinkSvg = `<svg class="h-3.5 w-3.5 opacity-60" aria-hidden="true"><use href="#icon-external"/></svg>`;
 
 const githubIconSvg = `<svg class="h-4 w-4" aria-hidden="true"><use href="#icon-github"/></svg>`;
+
+export const PRICES = ["Free", "Freemium", "Paid"];
 
 export const PLATFORMS = [
   { value: "web", label: "Web" },
