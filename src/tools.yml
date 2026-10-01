@@ -144,7 +144,7 @@
   price: Freemium
   github_stars: 0
   opensource: false
-  os: [macos, windows]
+  os: [macos, windows, linux, web]
 
 - name: OpenScout
   url: https://openscout.app/
