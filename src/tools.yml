@@ -166,7 +166,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 82000
+  github_stars: 83000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -483,7 +483,7 @@
     - https://github.com/tiann/hapi
   details: Local-first mobile, web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
   price: Free
-  github_stars: 5100
+  github_stars: 5200
   opensource: true
   os: [macos, linux, web, android, ios]
 
