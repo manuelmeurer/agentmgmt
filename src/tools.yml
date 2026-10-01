@@ -1,3 +1,53 @@
+- name: Delta
+  url: https://delta.dev/
+  details: Multiplayer environment from the creators of Zed that keeps agent conversations and code together in shareable threads, backed by fine-grained version control.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, web]
+
+- name: Alan
+  url: https://tryalan.ai/
+  links:
+    - https://x.com/tryAlanAI
+    - https://www.reddit.com/r/tryAlanAI/
+  details: Control plane for software delivery that routes tasks across Claude Code, Codex, Cursor, and CI, with local or cloud sessions.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, web]
+
+- name: Zuse
+  url: https://zuse.sh/
+  links:
+    - https://github.com/swarajbachu/zuse
+  details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
+  price:
+  github_stars: 200
+  opensource: true
+  os: [macos, linux]
+
+- name: pipper
+  url: https://www.pipper.dev/
+  links:
+    - https://github.com/maker-or/omni
+  details: Alpha desktop interface for controlling Claude Code, Codex, Copilot, Cursor, OpenCode, and Grok agents. Source is public but has no license.
+  price:
+  github_stars: 0
+  opensource: false
+  os: [macos, windows]
+
+- name: OpenHands
+  url: https://www.openhands.dev/
+  links:
+    - https://github.com/OpenHands/OpenHands
+    - https://x.com/OpenHandsDev
+  details: Open-source platform for software engineering agents, with a local GUI, CLI, SDK, and hosted cloud.
+  price: Freemium
+  github_stars: 90000
+  opensource: true
+  os: [macos, linux, windows, web]
+
 - name: Amp
   url: https://ampcode.com/
   links:
