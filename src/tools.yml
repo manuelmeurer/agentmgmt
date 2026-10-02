@@ -655,3 +655,15 @@
   github_stars: 1100
   opensource: true
   os: [macos, linux]
+
+- name: Splitlane
+  url: https://github.com/ivkan/splitlane
+  icon_url: https://raw.githubusercontent.com/ivkan/splitlane/main/assets/icons/splitlane-128.png
+  links:
+    - https://github.com/ivkan/splitlane
+    - https://x.com/ivan__kalashnik
+  details: Open-source native desktop app (Rust, GPUI) that runs CLI coding agents in terminal panes and shows which one is working, finished or waiting for you. Reads Claude Code and Codex state from their own session records.
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, linux]
