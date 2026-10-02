@@ -667,3 +667,13 @@
   github_stars: 0
   opensource: true
   os: [macos, linux]
+
+- name: Enjoy
+  url: https://enjoy.dev/
+  links:
+    - https://join.slack.com/t/enjoy-b4y2415/shared_invite/zt-49zwiotkm-a6Azpog0aCnTsCQEtv5LyA
+  details: Desktop workspace for building with Claude Code, Codex, Grok Build, OpenCode, and Antigravity, aimed at non-programmers. Conversations, docs, and workflows are plain Markdown in your project; check in from phone or browser.
+  price: Paid
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, android, ios]
