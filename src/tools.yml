@@ -76,7 +76,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2500
+  github_stars: 2700
   opensource: true
   os: [macos, linux, windows]
 
