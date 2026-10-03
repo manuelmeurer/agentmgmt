@@ -685,3 +685,31 @@
   github_stars: 0
   opensource: false
   os: [macos]
+
+- name: GitKraken Kepler
+  url: https://www.gitkraken.com/kepler
+  details: Agent-agnostic development environment from GitKraken that runs agents in parallel worktrees from issue to merged PR, with reusable Actions, issue tracker integration, and a live graph of agent work.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows]
+
+- name: Parallel Code
+  url: https://parallelcode.app/
+  links:
+    - https://github.com/johannesjo/parallel-code
+  details: Open-source desktop workspace that runs Claude Code, Codex, Gemini, Copilot, and Antigravity CLIs in parallel, each in its own git worktree, with diff review, merging, and phone monitoring.
+  price: Free
+  github_stars: 1031
+  opensource: true
+  os: [macos, linux]
+
+- name: agenttik
+  url: https://github.com/pausan/agenttik
+  links:
+    - https://github.com/pausan/agenttik
+  details: Local workspace for running Claude Code, Codex, and Copilot sessions across multiple projects, with an orchestrator project, scheduled tasks, Git tools, usage tracking, and remote servers.
+  price: Free
+  github_stars: 5
+  opensource: true
+  os: [macos, linux, windows, web]
