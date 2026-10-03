@@ -677,3 +677,11 @@
   github_stars: 0
   opensource: false
   os: [macos, linux, windows, android, ios]
+
+- name: Offrun
+  url: https://offrun.dev/
+  details: Mac app that runs Claude Code, Codex, Antigravity, and Grok Build side by side in isolated git worktrees, with project memory, peer review between agents, notifications, and account switching when usage limits hit.
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos]
