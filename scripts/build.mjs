@@ -3,7 +3,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import yaml from "js-yaml";
+import { load } from "js-yaml";
 import {
   PLATFORMS,
   PRICES,
@@ -29,7 +29,7 @@ const [htmlTemplate, toolsYaml] = await Promise.all([
   readFile(join(src, "index.html"), "utf8"),
   readFile(join(src, "tools.yml"), "utf8"),
 ]);
-const tools = yaml.load(toolsYaml) || [];
+const tools = load(toolsYaml) || [];
 
 const errors = validateTools(tools);
 if (errors.length) {
