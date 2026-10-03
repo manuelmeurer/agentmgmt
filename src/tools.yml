@@ -296,7 +296,7 @@
   os: [macos, web]
 
 - name: Emdash
-  url: https://www.emdash.sh/
+  url: https://emdash.com/
   links:
     - https://discord.com/invite/f2fv7YxuR2
     - https://x.com/emdashsh
@@ -713,3 +713,23 @@
   github_stars: 5
   opensource: true
   os: [macos, linux, windows, web]
+
+- name: OpenRig
+  url: https://openrig.dev/
+  links:
+    - https://github.com/mvschwarz/openrig
+  details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
+  price: Free
+  github_stars: 4618
+  opensource: true
+  os: [macos, linux]
+
+- name: Omnigent
+  url: https://omnigent.ai/
+  links:
+    - https://github.com/omnigent-ai/omnigent
+  details: Open-source meta-harness over Claude Code, Codex, Cursor, OpenCode, and Pi, with a built-in coding orchestrator, spend and policy guardrails, OS sandboxing, and live session sharing across terminal, browser, desktop, and mobile.
+  price: Free
+  github_stars: 10434
+  opensource: true
+  os: [macos, linux, windows, web, ios, android]
