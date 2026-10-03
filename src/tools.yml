@@ -733,3 +733,13 @@
   github_stars: 10434
   opensource: true
   os: [macos, linux, windows, web, ios, android]
+
+- name: VibePod
+  url: https://vibepod.dev/
+  links:
+    - https://github.com/VibePod/vibepod-cli
+  details: Open-source CLI that runs Claude Code, Codex, Gemini, Copilot, OpenCode, and other coding agents in isolated Docker or Podman containers, with a unified command, local usage metrics, and a dashboard for side-by-side comparison.
+  price: Free
+  github_stars: 172
+  opensource: true
+  os: [macos, linux, windows]
