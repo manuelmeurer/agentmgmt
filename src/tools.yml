@@ -76,7 +76,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 2900
+  github_stars: 3000
   opensource: true
   os: [macos, linux, windows]
 
@@ -216,7 +216,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 84000
+  github_stars: 85000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -554,7 +554,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 24000
+  github_stars: 25000
   opensource: true
   os: [macos, linux, windows]
 
@@ -700,7 +700,7 @@
     - https://github.com/johannesjo/parallel-code
   details: Open-source desktop workspace that runs Claude Code, Codex, Gemini, Copilot, and Antigravity CLIs in parallel, each in its own git worktree, with diff review, merging, and phone monitoring.
   price: Free
-  github_stars: 1031
+  github_stars: 1000
   opensource: true
   os: [macos, linux]
 
@@ -710,7 +710,7 @@
     - https://github.com/pausan/agenttik
   details: Local workspace for running Claude Code, Codex, and Copilot sessions across multiple projects, with an orchestrator project, scheduled tasks, Git tools, usage tracking, and remote servers.
   price: Free
-  github_stars: 5
+  github_stars: 0
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -720,7 +720,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 4618
+  github_stars: 4800
   opensource: true
   os: [macos, linux]
 
@@ -730,6 +730,6 @@
     - https://github.com/omnigent-ai/omnigent
   details: Open-source meta-harness over Claude Code, Codex, Cursor, OpenCode, and Pi, with a built-in coding orchestrator, spend and policy guardrails, OS sandboxing, and live session sharing across terminal, browser, desktop, and mobile.
   price: Free
-  github_stars: 10434
+  github_stars: 10000
   opensource: true
   os: [macos, linux, windows, web, ios, android]
