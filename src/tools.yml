@@ -508,6 +508,13 @@
   opensource: true
   os: [macos, linux, windows]
 
+- name: VibeiDE
+  url: https://vibeide.dev/
+  price: Paid
+  github_stars: 0
+  opensource: false
+  os: [macos, windows, linux]
+
 - name: Happy
   url: https://happy.engineering/
   links:
