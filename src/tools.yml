@@ -404,7 +404,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 19000
+  github_stars: 20000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -612,7 +612,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 1900
+  github_stars: 2000
   opensource: false
   os: [macos]
 
@@ -720,7 +720,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 4800
+  github_stars: 5000
   opensource: true
   os: [macos, linux]
 
@@ -730,6 +730,6 @@
     - https://github.com/omnigent-ai/omnigent
   details: Open-source meta-harness over Claude Code, Codex, Cursor, OpenCode, and Pi, with a built-in coding orchestrator, spend and policy guardrails, OS sandboxing, and live session sharing across terminal, browser, desktop, and mobile.
   price: Free
-  github_stars: 10000
+  github_stars: 11000
   opensource: true
   os: [macos, linux, windows, web, ios, android]
