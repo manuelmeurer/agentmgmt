@@ -1,3 +1,11 @@
+- name: VibeiDE
+  url: https://vibeide.dev/
+  details: Desktop workspace that runs installed Claude Code, Codex, and OpenCode agents in parallel via per-project task queues, with Office/Grid views and result review.
+  price: Paid
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows]
+
 - name: Delta
   url: https://delta.dev/
   details: Multiplayer environment from the creators of Zed that keeps agent conversations and code together in shareable threads, backed by fine-grained version control.
