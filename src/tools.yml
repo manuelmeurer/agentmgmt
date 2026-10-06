@@ -216,7 +216,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 85000
+  github_stars: 86000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -423,7 +423,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 42000
+  github_stars: 43000
   opensource: true
   os: [macos, linux]
 
@@ -554,7 +554,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 25000
+  github_stars: 26000
   opensource: true
   os: [macos, linux, windows]
 
@@ -642,7 +642,7 @@
     - https://x.com/luvusdev
     - https://github.com/RizRiyz/luvus
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos, linux, windows]
 
@@ -720,7 +720,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 5000
+  github_stars: 5300
   opensource: true
   os: [macos, linux]
 
