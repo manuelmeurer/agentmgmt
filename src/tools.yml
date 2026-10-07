@@ -84,7 +84,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 3000
+  github_stars: 3100
   opensource: true
   os: [macos, linux, windows]
 
@@ -190,7 +190,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 2000
+  github_stars: 2100
   opensource: true
   os: [macos, linux, windows]
 
@@ -224,7 +224,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 86000
+  github_stars: 87000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -728,7 +728,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 5300
+  github_stars: 5600
   opensource: true
   os: [macos, linux]
 
