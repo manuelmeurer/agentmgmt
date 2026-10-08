@@ -454,7 +454,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1800
+  github_stars: 1900
   opensource: true
   os: [macos, linux, windows]
 
@@ -728,7 +728,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 5600
+  github_stars: 5900
   opensource: true
   os: [macos, linux]
 
