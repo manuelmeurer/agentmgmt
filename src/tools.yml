@@ -224,7 +224,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 87000
+  github_stars: 88000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -502,7 +502,7 @@
     - https://github.com/coder/xum
   details: Desktop app for running coding agents in parallel, each in an isolated workspace.
   price: Free
-  github_stars: 2000
+  github_stars: 2100
   opensource: true
   os: [macos, linux, windows]
 
@@ -728,7 +728,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 5900
+  github_stars: 6200
   opensource: true
   os: [macos, linux]
 
