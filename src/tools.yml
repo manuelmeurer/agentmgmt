@@ -1,3 +1,13 @@
+- name: MonoCode
+  url: https://www.usemono.dev/
+  links:
+    - https://github.com/hardbeat920/monocode
+  details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
+  price: Free
+  github_stars: 2800
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: VibeiDE
   url: https://vibeide.dev/
   details: Desktop workspace that runs installed Claude Code, Codex, and OpenCode agents in parallel via per-project task queues, with Office/Grid views and result review.
