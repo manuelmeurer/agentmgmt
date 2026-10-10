@@ -4,7 +4,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 2800
+  github_stars: 2900
   opensource: true
   os: [macos, linux, windows]
 
@@ -234,7 +234,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 88000
+  github_stars: 89000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -249,7 +249,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 91000
+  github_stars: 92000
   opensource: true
   os: [macos, linux, windows]
 
@@ -572,7 +572,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 26000
+  github_stars: 27000
   opensource: true
   os: [macos, linux, windows]
 
@@ -622,7 +622,7 @@
     - https://github.com/wavyrai/tmux-ide
     - https://x.com/prototyper_co
   price: Free
-  github_stars: 600
+  github_stars: 500
   opensource: true
   os: [macos, linux]
 
@@ -738,7 +738,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 6200
+  github_stars: 6500
   opensource: true
   os: [macos, linux]
 
