@@ -1,3 +1,66 @@
+- name: RunPane
+  url: https://runpane.com/
+  links:
+    - https://github.com/greenfield-inc/Pane
+    - https://discord.gg/BdMyubeAZn
+  details: Keyboard-first desktop app for running Claude Code, Codex, Aider, Goose, and any terminal agent in parallel Git worktrees, with a CLI and a self-hosted remote daemon for desktop or phone access.
+  price: Free
+  github_stars: 500
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Agentastic
+  url: https://www.agentastic.dev/
+  links:
+    - https://x.com/agentastic
+    - https://discord.com/invite/4VTeQmGeQ9
+  details: Native macOS multi-agent IDE that runs Claude Code, Codex, Gemini, and 55+ other agents in parallel Git worktrees, with built-in code review, browser automation, and an iPhone companion app.
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos, ios]
+
+- name: AIDEN
+  url: https://aidenapp.org/
+  details: Agentic IDE on top of local Claude Code and Codex CLIs that runs agents in parallel Git worktrees, with spec-driven approval gates, a Kanban feature board, and auto-generated pull requests.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
+- name: AionUi
+  url: https://www.aionui.com/en/
+  links:
+    - https://github.com/iOfficeAI/AionUi
+    - https://x.com/AionUi
+    - https://discord.gg/2QAwJn7Egx
+  details: Open-source cowork desktop app with a built-in agent that also runs Claude Code, Codex, OpenCode, Hermes, and 20+ other CLI agents in one interface, with scheduled tasks and remote access via WebUI and chat apps.
+  price: Free
+  github_stars: 34000
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Sculptor
+  url: https://imbue.com/product/sculptor
+  links:
+    - https://github.com/imbue-ai/sculptor
+    - https://x.com/imbue_ai
+  details: Open-source desktop app from Imbue for running parallel Claude agents (and experimental Pi agents) in isolated Git worktrees, with built-in workflow skills and a CI babysitter.
+  price: Free
+  github_stars: 200
+  opensource: true
+  os: [macos, linux]
+
+- name: Taskplane
+  url: https://github.com/HenryLach/taskplane
+  links:
+    - https://github.com/HenryLach/taskplane
+  details: Pi package that orchestrates batches of coding tasks in parallel Git worktrees with dependency-aware waves, supervisor, worker, reviewer, and merger agents, and a local web dashboard.
+  price: Free
+  github_stars: 200
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: Cloudroom
   url: https://www.cloudroom.dev/
   links:
