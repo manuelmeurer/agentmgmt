@@ -53,7 +53,6 @@
 
 - name: Taskplane
   url: https://github.com/HenryLach/taskplane
-  icon_url: https://avatars.githubusercontent.com/u/43647536?v=4
   links:
     - https://github.com/HenryLach/taskplane
   details: Pi package that orchestrates batches of coding tasks in parallel Git worktrees with dependency-aware waves, supervisor, worker, reviewer, and merger agents, and a local web dashboard.
