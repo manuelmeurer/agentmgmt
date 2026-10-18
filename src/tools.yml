@@ -1,3 +1,76 @@
+- name: RunPane
+  url: https://runpane.com/
+  links:
+    - https://github.com/greenfield-inc/Pane
+    - https://discord.gg/BdMyubeAZn
+  details: Keyboard-first desktop app for running Claude Code, Codex, Aider, Goose, and any terminal agent in parallel Git worktrees, with a CLI and a self-hosted remote daemon for desktop or phone access.
+  price: Free
+  github_stars: 500
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Agentastic
+  url: https://www.agentastic.dev/
+  links:
+    - https://x.com/agentastic
+    - https://discord.com/invite/4VTeQmGeQ9
+  details: Native macOS multi-agent IDE that runs Claude Code, Codex, Gemini, and 55+ other agents in parallel Git worktrees, with built-in code review, browser automation, and an iPhone companion app.
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos, ios]
+
+- name: AIDEN
+  url: https://aidenapp.org/
+  details: Agentic IDE on top of local Claude Code and Codex CLIs that runs agents in parallel Git worktrees, with spec-driven approval gates, a Kanban feature board, and auto-generated pull requests.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
+- name: AionUi
+  url: https://www.aionui.com/en/
+  links:
+    - https://github.com/iOfficeAI/AionUi
+    - https://x.com/AionUi
+    - https://discord.gg/2QAwJn7Egx
+  details: Open-source cowork desktop app with a built-in agent that also runs Claude Code, Codex, OpenCode, Hermes, and 20+ other CLI agents in one interface, with scheduled tasks and remote access via WebUI and chat apps.
+  price: Free
+  github_stars: 34000
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Sculptor
+  url: https://imbue.com/product/sculptor
+  links:
+    - https://github.com/imbue-ai/sculptor
+    - https://x.com/imbue_ai
+  details: Open-source desktop app from Imbue for running parallel Claude agents (and experimental Pi agents) in isolated Git worktrees, with built-in workflow skills and a CI babysitter.
+  price: Free
+  github_stars: 200
+  opensource: true
+  os: [macos, linux]
+
+- name: Taskplane
+  url: https://github.com/HenryLach/taskplane
+  links:
+    - https://github.com/HenryLach/taskplane
+  details: Pi package that orchestrates batches of coding tasks in parallel Git worktrees with dependency-aware waves, supervisor, worker, reviewer, and merger agents, and a local web dashboard.
+  price: Free
+  github_stars: 200
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Cloudroom
+  url: https://www.cloudroom.dev/
+  links:
+    - https://github.com/davidondrej/cloudroom-core
+  details: Desktop app that runs Claude Code, Codex, Pi, OpenCode, Cursor, and other agents locally or in sandboxed cloud threads, with subagents on any model via OpenRouter.
+  price: Freemium
+  github_stars: 800
+  opensource: true
+  os: [macos, linux]
+
 - name: Happier
   url: https://www.happier.dev/
   links:
@@ -6,7 +79,7 @@
     - https://discord.gg/W6Pb8KuHfg
   details: Multi-device web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, & much more. Fully end-to-end encrypted
   price: Free
-  github_stars: 1900
+  github_stars: 2000
   opensource: true
   os: [macos, linux, windows]
 
@@ -16,7 +89,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 3000
+  github_stars: 3100
   opensource: true
   os: [macos, linux, windows]
 
@@ -106,7 +179,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 3200
+  github_stars: 3300
   opensource: true
   os: [macos, linux, windows]
 
@@ -246,7 +319,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 91000
+  github_stars: 96000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -384,7 +457,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 1000
+  github_stars: 1300
   opensource: true
   os: [macos, android, ios]
 
@@ -395,7 +468,7 @@
     - https://github.com/kdlbs/kandev
     - https://discord.gg/gWdCPGcFCD
   price: Free
-  github_stars: 900
+  github_stars: 1000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -414,7 +487,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3300
+  github_stars: 3400
   opensource: true
   os: [macos, linux, web]
 
@@ -453,7 +526,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 44000
+  github_stars: 45000
   opensource: true
   os: [macos, linux]
 
@@ -565,7 +638,7 @@
     - https://github.com/tiann/hapi
   details: Local-first mobile, web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
   price: Free
-  github_stars: 5200
+  github_stars: 5300
   opensource: true
   os: [macos, linux, web, android, ios]
 
@@ -584,7 +657,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 27000
+  github_stars: 28000
   opensource: true
   os: [macos, linux, windows]
 
@@ -607,7 +680,7 @@
     - https://www.youtube.com/@warpdotdev
     - https://go.warp.dev/join-preview
   price: Freemium
-  github_stars: 65000
+  github_stars: 66000
   opensource: true
   os: [macos, linux, windows]
 
@@ -634,7 +707,7 @@
     - https://github.com/wavyrai/tmux-ide
     - https://x.com/prototyper_co
   price: Free
-  github_stars: 500
+  github_stars: 600
   opensource: true
   os: [macos, linux]
 
@@ -730,7 +803,7 @@
     - https://github.com/johannesjo/parallel-code
   details: Open-source desktop workspace that runs Claude Code, Codex, Gemini, Copilot, and Antigravity CLIs in parallel, each in its own git worktree, with diff review, merging, and phone monitoring.
   price: Free
-  github_stars: 1000
+  github_stars: 1100
   opensource: true
   os: [macos, linux]
 
@@ -750,7 +823,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 7300
+  github_stars: 7700
   opensource: true
   os: [macos, linux]
 
