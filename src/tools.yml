@@ -1,3 +1,13 @@
+- name: Squadra
+  url: https://github.com/dagoSte/squadra
+  links:
+    - https://github.com/dagoSte/squadra
+  details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos]
+
 - name: RunPane
   url: https://runpane.com/
   links:
@@ -836,13 +846,3 @@
   github_stars: 11000
   opensource: true
   os: [macos, linux, windows, web, ios, android]
-
-- name: Squadra
-  url: https://github.com/dagoSte/squadra
-  links:
-    - https://github.com/dagoSte/squadra
-  details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard. Agent usage costs are separate.
-  price: Free
-  github_stars: 0
-  opensource: true
-  os: [macos]
