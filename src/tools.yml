@@ -1,3 +1,11 @@
+- name: Zozo
+  url: https://zozohq.com/
+  details: Hosted and local harness for Claude Code and Codex, with dependency-aware tasks, isolated Git worktrees, human decision checkpoints, and pull request delivery. Free Local Stack; paid hosted plans. Local Windows support is Claude Code only.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, web]
+
 - name: kraal
   url: https://github.com/vodhash/kraal
   links:
