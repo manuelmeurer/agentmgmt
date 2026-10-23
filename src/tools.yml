@@ -1,6 +1,6 @@
 - name: Zozo
   url: https://zozohq.com/
-  details: Hosted and local harness for Claude Code and Codex, with dependency-aware tasks, isolated Git worktrees, human decision checkpoints, and pull request delivery. Free Local Stack; paid hosted plans. Local Windows support is Claude Code only.
+    details: Hosted and local harness for Claude Code, Codex, and OpenCode (via OpenRouter), with GitHub or Jira Cloud + Bitbucket Cloud workflows, dependency-aware tasks, isolated worktrees, human clarification, and pull request delivery. Free Local Stack; paid hosting, with model access supplied separately.
   price: Freemium
   github_stars: 0
   opensource: false
