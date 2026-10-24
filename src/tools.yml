@@ -1,3 +1,11 @@
+- name: Zozo
+  url: https://zozohq.com/
+  details: Hosted and local harness for Claude Code, Codex, and OpenCode (via OpenRouter), with GitHub or Jira Cloud + Bitbucket Cloud workflows, dependency-aware tasks, isolated worktrees, human clarification, and pull request delivery. Free Local Stack; paid hosting, with model access supplied separately.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, web]
+
 - name: kraal
   url: https://github.com/vodhash/kraal
   links:
