@@ -1,3 +1,13 @@
+- name: Alchemist Coder
+  url: https://coder.alekla.com/
+  links:
+    - https://github.com/Alekla0126/alchemist-coder
+  details: Open-source desktop app that runs Claude Code and Codex over ACP with a live tree of every agent and subagent, an Arena that races up to four agents on one plan in separate Git worktrees, a coordinator for an organization of agents, an agent-driven browser, and full-text search of Claude Code, Codex, Gemini CLI, and Grok history. The free edition runs agents on local models (Ollama or LM Studio).
+  price: Free
+  github_stars: 5
+  opensource: true
+  os: [macos, linux, windows]
+
 - name: Zozo
   url: https://zozohq.com/
   details: Hosted and local harness for Claude Code, Codex, and OpenCode (via OpenRouter), with GitHub or Jira Cloud + Bitbucket Cloud workflows, dependency-aware tasks, isolated worktrees, human clarification, and pull request delivery. Free Local Stack; paid hosting, with model access supplied separately.
