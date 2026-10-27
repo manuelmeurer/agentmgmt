@@ -1,3 +1,13 @@
+- name: Kora
+  url: https://koragraph.in/
+  links:
+    - https://github.com/Koragraph/Kora
+  details: Mac app for running Claude Code, Codex and OpenCode with a built-in code graph and workers in separate git worktrees that you can watch and steer. Requires Apple Silicon and macOS 13.5 or later; connected agents use their own providers and plans.
+  price: Free
+  github_stars: 1
+  opensource: true
+  os: [macos]
+
 - name: Corgi
   url: https://corgi.computer/
   links:
