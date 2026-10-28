@@ -4,7 +4,7 @@
     - https://github.com/Alekla0126/alchemist-coder
   details: Open-source desktop app that runs Claude Code and Codex over ACP with a live tree of every agent and subagent, an Arena that races up to four agents on one plan in separate Git worktrees, a coordinator for an organization of agents, an agent-driven browser, and full-text search of Claude Code, Codex, Gemini CLI, and Grok history. The free edition runs agents on local models (Ollama or LM Studio).
   price: Free
-  github_stars: 5
+  github_stars: 0
   opensource: true
   os: [macos, linux, windows]
 
@@ -22,7 +22,7 @@
     - https://github.com/Koragraph/Kora
   details: Mac app for running Claude Code, Codex and OpenCode with a built-in code graph and workers in separate git worktrees that you can watch and steer. Requires Apple Silicon and macOS 13.5 or later; connected agents use their own providers and plans.
   price: Free
-  github_stars: 1
+  github_stars: 0
   opensource: true
   os: [macos]
 
@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 700
+  github_stars: 800
   opensource: true
   os: [macos]
 
@@ -157,7 +157,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 3400
+  github_stars: 3500
   opensource: true
   os: [macos, linux, windows]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 107000
+  github_stars: 108000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -525,7 +525,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 1400
+  github_stars: 1500
   opensource: true
   os: [macos, android, ios]
 
@@ -891,7 +891,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8200
+  github_stars: 8300
   opensource: true
   os: [macos, linux]
 
