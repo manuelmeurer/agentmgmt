@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 110000
+  github_stars: 111000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -575,7 +575,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 22000
+  github_stars: 23000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 31000
+  github_stars: 32000
   opensource: true
   os: [macos, linux, windows]
 
