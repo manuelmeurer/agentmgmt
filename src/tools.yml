@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos]
 
@@ -135,7 +135,7 @@
     - https://github.com/davidondrej/cloudroom-core
   details: Desktop app that runs Claude Code, Codex, Pi, OpenCode, Cursor, and other agents locally or in sandboxed cloud threads, with subagents on any model via OpenRouter.
   price: Freemium
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos, linux]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 111000
+  github_stars: 112000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -525,7 +525,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 1500
+  github_stars: 1600
   opensource: true
   os: [macos, android, ios]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 34000
+  github_stars: 37000
   opensource: true
   os: [macos, linux, windows]
 
@@ -783,7 +783,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 2200
+  github_stars: 2300
   opensource: false
   os: [macos]
 
@@ -891,7 +891,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8400
+  github_stars: 8500
   opensource: true
   os: [macos, linux]
 
