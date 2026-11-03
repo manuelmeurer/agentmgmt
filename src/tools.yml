@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos]
 
@@ -215,7 +215,7 @@
     - https://x.com/OpenHandsDev
   details: Open-source platform for software engineering agents, with a local GUI, CLI, SDK, and hosted cloud.
   price: Freemium
-  github_stars: 92000
+  github_stars: 93000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 113000
+  github_stars: 114000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -462,7 +462,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 12000
+  github_stars: 13000
   opensource: true
   os: [macos, web]
 
@@ -473,7 +473,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 6100
+  github_stars: 6200
   opensource: true
   os: [macos, linux, windows]
 
@@ -706,7 +706,7 @@
     - https://github.com/tiann/hapi
   details: Local-first mobile, web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
   price: Free
-  github_stars: 5300
+  github_stars: 5400
   opensource: true
   os: [macos, linux, web, android, ios]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 41000
+  github_stars: 43000
   opensource: true
   os: [macos, linux, windows]
 
@@ -783,7 +783,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 2300
+  github_stars: 2400
   opensource: false
   os: [macos]
 
