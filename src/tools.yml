@@ -135,7 +135,7 @@
     - https://github.com/davidondrej/cloudroom-core
   details: Desktop app that runs Claude Code, Codex, Pi, OpenCode, Cursor, and other agents locally or in sandboxed cloud threads, with subagents on any model via OpenRouter.
   price: Freemium
-  github_stars: 1300
+  github_stars: 1400
   opensource: true
   os: [macos, linux]
 
@@ -157,7 +157,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 3500
+  github_stars: 3600
   opensource: true
   os: [macos, linux, windows]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 114000
+  github_stars: 115000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -555,7 +555,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3400
+  github_stars: 3500
   opensource: true
   os: [macos, linux, web]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 43000
+  github_stars: 46000
   opensource: true
   os: [macos, linux, windows]
 
