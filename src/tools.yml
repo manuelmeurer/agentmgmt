@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1300
+  github_stars: 1200
   opensource: true
   os: [macos]
 
@@ -147,7 +147,7 @@
     - https://discord.gg/W6Pb8KuHfg
   details: Multi-device web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, & much more. Fully end-to-end encrypted
   price: Free
-  github_stars: 2100
+  github_stars: 2200
   opensource: true
   os: [macos, linux, windows]
 
@@ -247,7 +247,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 3400
+  github_stars: 3500
   opensource: true
   os: [macos, linux, windows]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 115000
+  github_stars: 116000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -555,7 +555,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3500
+  github_stars: 3600
   opensource: true
   os: [macos, linux, web]
 
@@ -686,7 +686,7 @@
     - https://github.com/slopus/happy
   details: Mobile and web client for driving Claude Code and Codex sessions remotely, end-to-end encrypted.
   price: Free
-  github_stars: 24000
+  github_stars: 25000
   opensource: true
   os: [macos, linux, web, android, ios]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 46000
+  github_stars: 48000
   opensource: true
   os: [macos, linux, windows]
 
@@ -891,7 +891,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8600
+  github_stars: 8700
   opensource: true
   os: [macos, linux]
 
