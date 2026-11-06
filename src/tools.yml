@@ -157,7 +157,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 3600
+  github_stars: 3700
   opensource: true
   os: [macos, linux, windows]
 
@@ -237,7 +237,7 @@
     - https://discord.gg/VaWtxQxSRU
   details: Open-source workspace for taking ideas from conversation to coordinated work with coding agents. A shared task system lets them organize the effort while developers follow progress and change direction.
   price: Free
-  github_stars: 0
+  github_stars: 100
   opensource: true
   os: [macos, linux, web]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 116000
+  github_stars: 117000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 48000
+  github_stars: 49000
   opensource: true
   os: [macos, linux, windows]
 
@@ -765,7 +765,7 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 2300
+  github_stars: 2400
   opensource: true
   os: [macos]
 
