@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos]
 
@@ -157,7 +157,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 3700
+  github_stars: 3800
   opensource: true
   os: [macos, linux, windows]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 118000
+  github_stars: 119000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -555,7 +555,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3700
+  github_stars: 3800
   opensource: true
   os: [macos, linux, web]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 51000
+  github_stars: 52000
   opensource: true
   os: [macos, linux, windows]
 
@@ -783,7 +783,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 2400
+  github_stars: 2500
   opensource: false
   os: [macos]
 
