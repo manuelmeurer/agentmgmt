@@ -62,7 +62,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos]
 
@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 119000
+  github_stars: 120000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -402,7 +402,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 94000
+  github_stars: 95000
   opensource: true
   os: [macos, linux, windows]
 
@@ -555,7 +555,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 3800
+  github_stars: 4000
   opensource: true
   os: [macos, linux, web]
 
@@ -575,7 +575,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 23000
+  github_stars: 24000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -594,7 +594,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 49000
+  github_stars: 50000
   opensource: true
   os: [macos, linux]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 52000
+  github_stars: 54000
   opensource: true
   os: [macos, linux, windows]
 
@@ -891,7 +891,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8700
+  github_stars: 8800
   opensource: true
   os: [macos, linux]
 
