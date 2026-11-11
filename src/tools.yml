@@ -387,7 +387,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 121000
+  github_stars: 122000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -525,7 +525,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 1600
+  github_stars: 1700
   opensource: true
   os: [macos, android, ios]
 
@@ -555,7 +555,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4000
+  github_stars: 4100
   opensource: true
   os: [macos, linux, web]
 
@@ -725,7 +725,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 55000
+  github_stars: 57000
   opensource: true
   os: [macos, linux, windows]
 
