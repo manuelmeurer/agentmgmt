@@ -1,3 +1,13 @@
+- name: Logonomic
+  url: https://varinomics.com/logonomic/
+  links:
+    - https://varinomics.com/docs/logonomic/
+  details: Native C++/Qt desktop workspace for installed Codex, Claude Code, OpenCode, Antigravity, Grok Build, Kimi Code, and Qwen Code CLIs, with a terminal overview by repository, agent-maintained session titles and summaries, commit trailers that reopen the conversation behind a commit, task handoff and messaging between sessions, line-count history and a file treemap, and terminals that survive a crash of the UI. Free edition runs up to four terminals; one-time licences remove the limit and add GitHub/GitLab CI integration and an Android companion app. The macOS build is an Apple Silicon preview of the free edition.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, windows, android]
+
 - name: Alchemist Coder
   url: https://coder.alekla.com/
   links:
