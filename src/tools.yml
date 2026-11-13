@@ -257,7 +257,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 3500
+  github_stars: 3600
   opensource: true
   os: [macos, linux, windows]
 
@@ -397,7 +397,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 123000
+  github_stars: 124000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -565,7 +565,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4200
+  github_stars: 4300
   opensource: true
   os: [macos, linux, web]
 
@@ -648,7 +648,7 @@
     - https://x.com/ao_build
     - https://discord.com/invite/UZv7JjxbwG
   price: Free
-  github_stars: 14000
+  github_stars: 15000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -735,7 +735,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 58000
+  github_stars: 59000
   opensource: true
   os: [macos, linux, windows]
 
