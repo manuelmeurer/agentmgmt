@@ -1,4 +1,14 @@
-- name: Logonomic
+- name: Octuo
+  url: https://www.tutuo.ai/en/octuo
+  links:
+    - https://apps.apple.com/us/app/octuo-your-agent-ai-teams/id676744582
+      details: Native macOS app that coordinates the agents you already use — you state the goal, it prepares the work, hands each part to the right agent (Claude Code, Codex, MCP tools, browser and files), and follows up until it is done, with long jobs continuing after the chat closes. Canvas views, a visible and editable memory graph, and an encrypted Secrets Vault the model never sees. Tool calls run on your own Mac (macOS 15+); the iPhone companion shows everything the Mac side sees and lets you answer decisions and tick off checklists on the go. Plans from $20/month, with 1,000 trial credits and no card required.
+    price: Freemium
+  github_stars: 0
+    opensource: false
+  os: [macos, ios]
+  
+  - name: Logonomic
   url: https://varinomics.com/logonomic/
   links:
     - https://varinomics.com/docs/logonomic/
