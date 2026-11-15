@@ -214,7 +214,7 @@
     - https://github.com/swarajbachu/zuse
   details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
   price:
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos, linux]
 
@@ -235,7 +235,7 @@
     - https://x.com/OpenHandsDev
   details: Open-source platform for software engineering agents, with a local GUI, CLI, SDK, and hosted cloud.
   price: Freemium
-  github_stars: 93000
+  github_stars: 94000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -493,7 +493,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 6200
+  github_stars: 6300
   opensource: true
   os: [macos, linux, windows]
 
@@ -575,7 +575,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4300
+  github_stars: 4500
   opensource: true
   os: [macos, linux, web]
 
@@ -745,7 +745,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 60000
+  github_stars: 61000
   opensource: true
   os: [macos, linux, windows]
 
@@ -911,7 +911,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8800
+  github_stars: 8900
   opensource: true
   os: [macos, linux]
 
