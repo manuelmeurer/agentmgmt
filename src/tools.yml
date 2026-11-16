@@ -11,7 +11,7 @@
 - name: Logonomic
   url: https://varinomics.com/logonomic/
   links:
-    - https://varinomics.com/docs/logonomic/
+    - https://varinomics.com/logonomic/
   details: Native C++/Qt desktop workspace for installed Codex, Claude Code, OpenCode, Grok, Kimi, and Qwen CLIs, with sessions grouped by repository, agent-written session summaries, handoff between sessions, and terminals that survive UI crashes. Free edition up to four terminals; one-time licences add CI integration and an Android companion app.
   price: Freemium
   github_stars: 0
