@@ -93,7 +93,7 @@
     - https://discord.gg/BdMyubeAZn
   details: Keyboard-first desktop app for running Claude Code, Codex, Aider, Goose, and any terminal agent in parallel Git worktrees, with a CLI and a self-hosted remote daemon for desktop or phone access.
   price: Free
-  github_stars: 600
+  github_stars: 700
   opensource: true
   os: [macos, linux, windows]
 
@@ -135,7 +135,7 @@
     - https://x.com/imbue_ai
   details: Open-source desktop app from Imbue for running parallel Claude agents (and experimental Pi agents) in isolated Git worktrees, with built-in workflow skills and a CI babysitter.
   price: Free
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos, linux]
 
@@ -373,7 +373,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos, linux, windows]
 
@@ -407,7 +407,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 127000
+  github_stars: 128000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -614,7 +614,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 51000
+  github_stars: 52000
   opensource: true
   os: [macos, linux]
 
@@ -745,7 +745,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 62000
+  github_stars: 64000
   opensource: true
   os: [macos, linux, windows]
 
@@ -803,7 +803,7 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 2500
+  github_stars: 2600
   opensource: false
   os: [macos]
 
