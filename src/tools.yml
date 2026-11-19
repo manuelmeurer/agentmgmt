@@ -82,7 +82,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1300
+  github_stars: 1100
   opensource: true
   os: [macos]
 
@@ -407,7 +407,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 129000
+  github_stars: 130000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -556,7 +556,7 @@
     - https://github.com/kdlbs/kandev
     - https://discord.gg/gWdCPGcFCD
   price: Free
-  github_stars: 1100
+  github_stars: 1200
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -575,7 +575,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4700
+  github_stars: 4600
   opensource: true
   os: [macos, linux, web]
 
@@ -745,7 +745,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 65000
+  github_stars: 66000
   opensource: true
   os: [macos, linux, windows]
 
