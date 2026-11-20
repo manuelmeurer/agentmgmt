@@ -4,7 +4,7 @@
     - https://github.com/5dive-ai/5dive
   details: Open-source, self-hosted AI team that runs Claude Code, Codex and other CLI agents as services on your own Linux server, sharing tasks and checking each other's work, managed from your phone.
   price: Free
-  github_stars: 0
+  github_stars: 100
   opensource: true
   os: [linux, macos, android, web]
 
@@ -92,7 +92,7 @@
     - https://github.com/dagoSte/squadra
   details: Local skill and Python toolkit for coordinating Claude Code, Codex, and interactive Cursor windows, with a shared task registry, file-bound checks, non-author reviews, and a browser dashboard.
   price: Free
-  github_stars: 1100
+  github_stars: 1000
   opensource: true
   os: [macos]
 
@@ -177,7 +177,7 @@
     - https://discord.gg/W6Pb8KuHfg
   details: Multi-device web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, & much more. Fully end-to-end encrypted
   price: Free
-  github_stars: 2200
+  github_stars: 2300
   opensource: true
   os: [macos, linux, windows]
 
@@ -224,7 +224,7 @@
     - https://github.com/swarajbachu/zuse
   details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
   price:
-  github_stars: 300
+  github_stars: 200
   opensource: true
   os: [macos, linux]
 
@@ -417,7 +417,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 130000
+  github_stars: 131000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -605,7 +605,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 24000
+  github_stars: 25000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -755,7 +755,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 66000
+  github_stars: 67000
   opensource: true
   os: [macos, linux, windows]
 
