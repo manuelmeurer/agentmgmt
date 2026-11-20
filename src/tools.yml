@@ -1,3 +1,13 @@
+- name: 5dive
+  url: https://5dive.ai/
+  links:
+    - https://github.com/5dive-ai/5dive
+  details: Open-source, self-hosted AI team that runs Claude Code, Codex and other CLI agents as services on your own Linux server, sharing tasks and checking each other's work, managed from your phone.
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [linux, macos, android, web]
+
 - name: Octuo
   url: https://www.tutuo.ai/en/octuo
   links:
