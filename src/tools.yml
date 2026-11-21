@@ -417,7 +417,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 131000
+  github_stars: 132000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -755,7 +755,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 67000
+  github_stars: 69000
   opensource: true
   os: [macos, linux, windows]
 
