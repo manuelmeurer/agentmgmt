@@ -417,7 +417,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 132000
+  github_stars: 133000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -432,7 +432,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 95000
+  github_stars: 96000
   opensource: true
   os: [macos, linux, windows]
 
@@ -585,7 +585,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4600
+  github_stars: 4700
   opensource: true
   os: [macos, linux, web]
 
@@ -755,7 +755,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 69000
+  github_stars: 71000
   opensource: true
   os: [macos, linux, windows]
 
