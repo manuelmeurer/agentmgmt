@@ -1,3 +1,11 @@
+- name: Valo
+  url: https://getvalo.dev/
+  details: Desktop workspace for AI that runs Claude Code, Codex, Gemini, Cursor and GLM side by side, every project in one window. Keyguard lets the assistant use your passwords without ever seeing them, per-tool permissions and custom Guards stop risky actions before they run, and context control keeps the assistant lighter so it thinks clearer and lasts longer. Cross-Chat and an Orchestrator let chats brief and follow up on each other, ValoLink connects chats on different machines, and On the Go reaches your chats from your phone through Telegram. Free plan; optional Pro with a 14-day trial, no card or email needed.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [windows, macos, linux]
+
 - name: 5dive
   url: https://5dive.ai/
   links:
