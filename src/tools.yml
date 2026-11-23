@@ -232,7 +232,7 @@
     - https://github.com/swarajbachu/zuse
   details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
   price:
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos, linux]
 
@@ -403,7 +403,7 @@
     - https://discord.gg/cZeD9WYcV7
     - https://github.com/superset-sh/superset
   price: Freemium
-  github_stars: 16000
+  github_stars: 17000
   opensource: true
   os: [macos]
 
@@ -425,7 +425,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 133000
+  github_stars: 134000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -593,7 +593,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4700
+  github_stars: 4800
   opensource: true
   os: [macos, linux, web]
 
@@ -763,7 +763,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 71000
+  github_stars: 74000
   opensource: true
   os: [macos, linux, windows]
 
@@ -929,7 +929,7 @@
     - https://github.com/mvschwarz/openrig
   details: Self-hosted daemon, CLI, and TUI on tmux that runs Claude Code, Codex, and Pi as a persistent team, with a lead agent delegating to specialist agents over weeks-long projects.
   price: Free
-  github_stars: 8900
+  github_stars: 9000
   opensource: true
   os: [macos, linux]
 
@@ -939,6 +939,6 @@
     - https://github.com/omnigent-ai/omnigent
   details: Open-source meta-harness over Claude Code, Codex, Cursor, OpenCode, and Pi, with a built-in coding orchestrator, spend and policy guardrails, OS sandboxing, and live session sharing across terminal, browser, desktop, and mobile.
   price: Free
-  github_stars: 11000
+  github_stars: 12000
   opensource: true
   os: [macos, linux, windows, web, ios, android]
