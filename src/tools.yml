@@ -142,7 +142,7 @@
     - https://discord.gg/2QAwJn7Egx
   details: Open-source cowork desktop app with a built-in agent that also runs Claude Code, Codex, OpenCode, Hermes, and 20+ other CLI agents in one interface, with scheduled tasks and remote access via WebUI and chat apps.
   price: Free
-  github_stars: 34000
+  github_stars: 35000
   opensource: true
   os: [macos, linux, windows]
 
@@ -232,7 +232,7 @@
     - https://github.com/swarajbachu/zuse
   details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
   price:
-  github_stars: 300
+  github_stars: 200
   opensource: true
   os: [macos, linux]
 
@@ -285,7 +285,7 @@
     - https://github.com/zeronsh/zeron
   details: Native workspace for managing coding agents, with live diffs and optional multi-device session control.
   price:
-  github_stars: 3700
+  github_stars: 3800
   opensource: true
   os: [macos, linux, windows]
 
@@ -425,7 +425,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 136000
+  github_stars: 138000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -593,7 +593,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 4800
+  github_stars: 4900
   opensource: true
   os: [macos, linux, web]
 
@@ -763,7 +763,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 77000
+  github_stars: 79000
   opensource: true
   os: [macos, linux, windows]
 
