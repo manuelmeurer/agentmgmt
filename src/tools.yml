@@ -1,3 +1,13 @@
+- name: Reliant
+  url: https://reliantlabs.io/
+  links:
+    - https://github.com/reliant-labs/reliant
+  details: Runs coding agents in parallel, each in its own git worktree, through multi-agent workflows written in YAML and committed to your repo, with approval nodes that pause for a person and built-in review loops (Best of Three, Get It Right, PR review). Works on any model, including Claude, ChatGPT and Copilot subscriptions, your own API keys or local models, and runs on your own computer or a cloud machine. Free with your own API key or ChatGPT plan; source-available under BSL 1.1.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, windows, linux, web]
+
 - name: Valo
   url: https://getvalo.dev/
   details: Closed-source desktop workspace that runs Claude Code, Codex, Gemini, Cursor, GLM and local models (Ollama) side by side, with an encrypted vault the agent uses without seeing secrets, per-tool permission guards, cross-machine links (ValoLink) and Telegram access from your phone. Pro adds Cross-Chat with an Orchestrator and context control.
