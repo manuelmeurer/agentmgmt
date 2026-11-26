@@ -195,7 +195,7 @@
     - https://github.com/hardbeat920/monocode
   details: Desktop GUI that runs your installed Claude Code, Codex, Cursor, OpenCode, and other CLI agents in tabbed, splittable sessions, with optional worktrees, agent-driven orchestration, and experimental remote hosts.
   price: Free
-  github_stars: 4100
+  github_stars: 4200
   opensource: true
   os: [macos, linux, windows]
 
@@ -425,7 +425,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 138000
+  github_stars: 140000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -563,7 +563,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 1700
+  github_stars: 1800
   opensource: true
   os: [macos, android, ios]
 
@@ -613,7 +613,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 25000
+  github_stars: 26000
   opensource: true
   os: [macos, linux, windows, web, android, ios]
 
@@ -763,7 +763,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 79000
+  github_stars: 81000
   opensource: true
   os: [macos, linux, windows]
 
