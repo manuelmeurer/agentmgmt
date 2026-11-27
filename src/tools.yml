@@ -2,7 +2,7 @@
   url: https://reliantlabs.io/
   links:
     - https://github.com/reliant-labs/reliant
-  details: Runs coding agents in parallel, each in its own git worktree, through multi-agent workflows written in YAML and committed to your repo, with approval nodes that pause for a person and built-in review loops (Best of Three, Get It Right, PR review). Works on any model, including Claude, ChatGPT and Copilot subscriptions, your own API keys or local models, and runs on your own computer or a cloud machine. Free with your own API key or ChatGPT plan; source-available under BSL 1.1.
+  details: Runs coding agents in parallel, each in its own git worktree, through YAML multi-agent workflows committed to your repo, with approval nodes and built-in review loops. Works with any model or subscription, locally or on a cloud machine.
   price: Freemium
   github_stars: 0
   opensource: false
