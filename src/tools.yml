@@ -1,3 +1,13 @@
+- name: Reliant
+  url: https://reliantlabs.io/
+  links:
+    - https://github.com/reliant-labs/reliant
+  details: Runs coding agents in parallel, each in its own git worktree, through YAML multi-agent workflows committed to your repo, with approval nodes and built-in review loops. Works with any model or subscription, locally or on a cloud machine.
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, windows, linux, web]
+
 - name: Valo
   url: https://getvalo.dev/
   details: Closed-source desktop workspace that runs Claude Code, Codex, Gemini, Cursor, GLM and local models (Ollama) side by side, with an encrypted vault the agent uses without seeing secrets, per-tool permission guards, cross-machine links (ValoLink) and Telegram access from your phone. Pro adds Cross-Chat with an Orchestrator and context control.
