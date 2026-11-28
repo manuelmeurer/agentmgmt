@@ -4,7 +4,7 @@
     - https://github.com/reliant-labs/reliant
   details: Runs coding agents in parallel, each in its own git worktree, through YAML multi-agent workflows committed to your repo, with approval nodes and built-in review loops. Works with any model or subscription, locally or on a cloud machine.
   price: Freemium
-  github_stars: 0
+  github_stars: 100
   opensource: false
   os: [macos, windows, linux, web]
 
@@ -183,7 +183,7 @@
     - https://github.com/davidondrej/cloudroom-core
   details: Desktop app that runs Claude Code, Codex, Pi, OpenCode, Cursor, and other agents locally or in sandboxed cloud threads, with subagents on any model via OpenRouter.
   price: Freemium
-  github_stars: 1900
+  github_stars: 2000
   opensource: true
   os: [macos, linux]
 
@@ -242,7 +242,7 @@
     - https://github.com/swarajbachu/zuse
   details: Open-source desktop workspace for running coding agents in parallel Git worktrees, with optional cloud workspaces.
   price:
-  github_stars: 200
+  github_stars: 300
   opensource: true
   os: [macos, linux]
 
@@ -435,7 +435,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 142000
+  github_stars: 143000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -603,7 +603,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 5000
+  github_stars: 5100
   opensource: true
   os: [macos, linux, web]
 
@@ -773,7 +773,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 82000
+  github_stars: 83000
   opensource: true
   os: [macos, linux, windows]
 
